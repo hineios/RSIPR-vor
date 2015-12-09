@@ -1,0 +1,640 @@
+{
+  "RVFilter": true,
+  "DirtyFilter": true,
+  "Choker": 30,
+  "GlobalSpeedOverride": -1.0,
+  "Output": "KeeponOutput",
+  "OutputArgs": "COM12",
+  "BodyModel": "KeeponBodyModel",
+  "Layers": [
+    {
+      "Name": "GazeTracking",
+      "Active": false,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Tilt",
+            "Speed": "0.1",
+            "UPS": "0"
+          },
+          "X": 1169,
+          "Y": 199,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Pan",
+            "Speed": "0.05",
+            "UPS": "0"
+          },
+          "X": 1165,
+          "Y": 67,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Tilt",
+            "BlendTimeValue": "0",
+            "FloatValue": "45",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 739,
+          "Y": 28,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "45",
+            "UPS": "0"
+          },
+          "X": 762,
+          "Y": 178,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "MultiplyFloatController",
+          "Parameters": {
+            "FloatValue": "-3",
+            "UPS": "0"
+          },
+          "X": 765,
+          "Y": 268,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "EfiTracker",
+          "Parameters": {
+            "AngleTolerance": "0",
+            "Divider": "1",
+            "Channel": "",
+            "Dimension": "Vertical",
+            "UPS": "0"
+          },
+          "X": 484,
+          "Y": 248,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 6,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Pan",
+            "BlendTimeValue": "0",
+            "FloatValue": "0",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 382,
+          "Y": 23,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 7,
+          "Name": "EfiTracker",
+          "Parameters": {
+            "AngleTolerance": "2",
+            "Divider": "2",
+            "Channel": "KeeponBodySet.Pan",
+            "Dimension": "Horizontal",
+            "UPS": "0"
+          },
+          "X": 109,
+          "Y": 240,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 8,
+          "Name": "ThalamusLayerParameterSwitch",
+          "Parameters": {
+            "Perception": "IAnimationActions.PlayAnimation()",
+            "Parameter": "",
+            "ActivationValue": "FallAsleep",
+            "Default": "True",
+            "UPS": "0"
+          },
+          "X": 12,
+          "Y": 37,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 2,
+          "Child": 1
+        },
+        {
+          "Parent": 4,
+          "Child": 3
+        },
+        {
+          "Parent": 5,
+          "Child": 4
+        },
+        {
+          "Parent": 6,
+          "Child": 2
+        },
+        {
+          "Parent": 8,
+          "Child": 6
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 2,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 3
+        },
+        {
+          "InputCtrl": 6,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 7
+        }
+      ]
+    },
+    {
+      "Name": "Idle",
+      "Active": false,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Roll",
+            "Speed": "0.03",
+            "UPS": "0"
+          },
+          "X": 1161,
+          "Y": 276,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Bop",
+            "Speed": "0.1",
+            "UPS": "0"
+          },
+          "X": 1158,
+          "Y": 117,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Bop",
+            "BlendTimeValue": "0",
+            "FloatValue": "45.8796383487034",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 773,
+          "Y": 22,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "25",
+            "UPS": "0"
+          },
+          "X": 777,
+          "Y": 169,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "25",
+            "Frequency": "0.15",
+            "Phase": "0",
+            "Wave": "Sine",
+            "UPS": "0"
+          },
+          "X": 759,
+          "Y": 251,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Roll",
+            "BlendTimeValue": "0",
+            "FloatValue": "2.75924242975155",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 371,
+          "Y": 21,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 6,
+          "Name": "MultiplyFloatController",
+          "Parameters": {
+            "FloatValue": "4",
+            "UPS": "0"
+          },
+          "X": 362,
+          "Y": 171,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 7,
+          "Name": "RandomController",
+          "Parameters": {
+            "Minimum": "-1",
+            "Maximum": "1",
+            "UPS": "0"
+          },
+          "X": 341,
+          "Y": 266,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 8,
+          "Name": "ThalamusLayerParameterSwitch",
+          "Parameters": {
+            "Perception": "IAnimationActions.PlayAnimation()",
+            "Parameter": "",
+            "ActivationValue": "FallAsleep",
+            "Default": "True",
+            "UPS": "0"
+          },
+          "X": 13,
+          "Y": 52,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 2,
+          "Child": 1
+        },
+        {
+          "Parent": 4,
+          "Child": 3
+        },
+        {
+          "Parent": 5,
+          "Child": 2
+        },
+        {
+          "Parent": 7,
+          "Child": 6
+        },
+        {
+          "Parent": 8,
+          "Child": 5
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 2,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 3
+        },
+        {
+          "InputCtrl": 5,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        }
+      ]
+    },
+    {
+      "Name": "Speaking",
+      "Active": false,
+      "Components": 1,
+      "BlendMode": 0,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Tilt",
+            "Speed": "0.6",
+            "UPS": "0"
+          },
+          "X": 1140,
+          "Y": 318,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Bop",
+            "Speed": "1",
+            "UPS": "0"
+          },
+          "X": 1145,
+          "Y": 199,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Tilt",
+            "BlendTimeValue": "0",
+            "FloatValue": "21.4400373753327",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 776,
+          "Y": 26,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "20",
+            "UPS": "0"
+          },
+          "X": 773,
+          "Y": 175,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "5",
+            "Frequency": "4",
+            "Phase": "0",
+            "Wave": "Sine",
+            "UPS": "0"
+          },
+          "X": 773,
+          "Y": 260,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Bop",
+            "BlendTimeValue": "0",
+            "FloatValue": "40",
+            "Additive": "False",
+            "UPS": "0"
+          },
+          "X": 360,
+          "Y": 37,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 6,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "35",
+            "UPS": "0"
+          },
+          "X": 350,
+          "Y": 190,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 7,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "5",
+            "Frequency": "3",
+            "Phase": "0",
+            "Wave": "Square",
+            "UPS": "0"
+          },
+          "X": 350,
+          "Y": 269,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 8,
+          "Name": "ThalamusLayerSwitch",
+          "Parameters": {
+            "OnPerception": "ISpeakEvents.SpeakStarted",
+            "OffPerception": "ISpeakEvents.SpeakFinished",
+            "Default": "False",
+            "UPS": "0"
+          },
+          "X": 15,
+          "Y": 48,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 2,
+          "Child": 1
+        },
+        {
+          "Parent": 4,
+          "Child": 3
+        },
+        {
+          "Parent": 5,
+          "Child": 2
+        },
+        {
+          "Parent": 7,
+          "Child": 6
+        },
+        {
+          "Parent": 8,
+          "Child": 5
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 2,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 3
+        },
+        {
+          "InputCtrl": 5,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        }
+      ]
+    },
+    {
+      "Name": "Animations",
+      "Active": false,
+      "Components": 1,
+      "BlendMode": 0,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "MultiplyChannelValue",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Pan",
+            "Value": "-1",
+            "UPS": "0"
+          },
+          "X": 1017,
+          "Y": 231,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "MultiplyChannelValue",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Roll",
+            "Value": "-1",
+            "UPS": "0"
+          },
+          "X": 1024,
+          "Y": 87,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "ThalamusAnimationFileController",
+          "Parameters": {
+            "Animation": "frustrated",
+            "AnimationPackage": "Keepon",
+            "Speed": "1",
+            "AnimationId": "",
+            "Loop": "False",
+            "Paused": "False",
+            "PlayRandom": "False",
+            "StartStop": "False",
+            "AutoStart": "True",
+            "AutoActivateLayer": "True",
+            "HoldEndPose": "False",
+            "BlendOutTime": "10",
+            "UPS": "0"
+          },
+          "X": 466,
+          "Y": 13,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Bop",
+            "Speed": "1",
+            "UPS": "0"
+          },
+          "X": 44,
+          "Y": 294,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Tilt",
+            "Speed": "1",
+            "UPS": "0"
+          },
+          "X": 38,
+          "Y": 165,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SetChannelSpeed",
+          "Parameters": {
+            "Channel": "KeeponBodySet.Roll",
+            "Speed": "1",
+            "UPS": "0"
+          },
+          "X": 36,
+          "Y": 37,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 2,
+          "Child": 1
+        },
+        {
+          "Parent": 3,
+          "Child": 2
+        },
+        {
+          "Parent": 4,
+          "Child": 3
+        },
+        {
+          "Parent": 5,
+          "Child": 4
+        }
+      ],
+      "WireParameters": []
+    }
+  ]
+}

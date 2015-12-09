@@ -1,0 +1,134 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1969 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\CookComputing.XmlRpcV2.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\CookComputing.XmlRpcV2.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\LPSClientMessages.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\LPSClientMessages.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.041 seconds
+desktop: 3840x2160 60Hz; virtual: 5760x2160 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+Thalamus endpoint set to http://localhost:7000
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Attempt to start service on port '7001'
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\System.Xml.dll (this message is harmless)
+XMLRPC Listening on http://*:7001/
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\Mono.Security.dll (this message is harmless)
+Start
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+btnPerform (UnityEngine.UI.Button)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+btnStop (UnityEngine.UI.Button)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1cf8 -> priority: 1 
+Got from Thalamus: LibraryList
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Got from Thalamus: LibraryChanged
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Projects\SERA\Apps\LeadPoetsSociety\LeadPoetsSociety\LeadPoetsSociety_Data\Managed\System.Data.dll (this message is harmless)
+Got from Thalamus: LibraryChanged
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+

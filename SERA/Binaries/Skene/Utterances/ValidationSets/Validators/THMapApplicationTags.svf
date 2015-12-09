@@ -1,0 +1,10 @@
+{
+"ValidValues":[
+"distance",
+"direction",
+"symbol",
+"skill",
+"tool",
+"student"],
+"CaseSensitive":false
+}

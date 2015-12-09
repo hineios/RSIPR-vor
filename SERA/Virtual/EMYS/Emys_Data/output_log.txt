@@ -1,0 +1,44 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1969 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.037 seconds
+desktop: 3840x2160 60Hz; virtual: 5760x2160 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 34c8 -> priority: 1 
+JsonObjectStreamServer going to listen on: 0.0.0.0, 7884
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\System.Xml.dll (this message is harmless)
+JsonObjectStreamServer listening on: 0.0.0.0, 7884
+JsonObjectStreamServer: Waiting for a connection...
+JsonObjectStreamServer: Waiting for a connection...
+Platform assembly: C:\Projects\SERA\Virtual\EMYS\Emys_Data\Managed\System.Data.dll (this message is harmless)
+JSON Inbound Hz: 13
+JSON Inbound Hz: 30
+JSON Inbound Hz: 30

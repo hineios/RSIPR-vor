@@ -1,0 +1,10 @@
+{
+"TargetInstructionValidator":"skeneTargetInstuctions.svf",
+"NonTargetInstructionValidator":"skeneNonTargetInstructions.svf",
+"AnimationValidator":"NAOAnimationsEmote.svf",
+"GameInstructions":"EnercitiesGameInstructions.svf",
+"TagsValidator":"EnercitiesTags.svf",
+"TargetsValidator":"EnercitiesTargets.svf",
+"FaceExpressionsValidator":"NAOFaceExpressions.svf",
+"TTSValidator":"NAOTTS.svf"
+}

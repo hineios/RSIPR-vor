@@ -1,0 +1,12 @@
+{
+"ValidValues":[
+"neutral",
+"shut",
+"happiness",
+"anger",
+"sadness",
+"fear",
+"surprise",
+"disgust"],
+"CaseSensitive":true
+}
