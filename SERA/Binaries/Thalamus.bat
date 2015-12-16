@@ -1,3 +1,3 @@
 cd Thalamus
-start ThalamusStandalone.exe RCT
+start ThalamusStandalone.exe VorThalamusMaster
 exit

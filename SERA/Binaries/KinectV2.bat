@@ -1,3 +1,3 @@
 cd KinectV2
-start ThalamusKinect.exe RCT
+start ThalamusKinect.exe VorThalamusMaster
 exit
