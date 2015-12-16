@@ -43,12 +43,12 @@
             this.LibSubCategories = new System.Windows.Forms.ListBox();
             this.PerformUtterance = new System.Windows.Forms.Button();
             this.GazeBox = new System.Windows.Forms.GroupBox();
-            this.GazeParticipant = new System.Windows.Forms.Button();
-            this.GazeElsewhere = new System.Windows.Forms.Button();
-            this.GazeGame = new System.Windows.Forms.Button();
-            this.GazeConfederate = new System.Windows.Forms.Button();
-            this.GazeStateLabel = new System.Windows.Forms.Label();
             this.GazeState = new System.Windows.Forms.Label();
+            this.GazeStateLabel = new System.Windows.Forms.Label();
+            this.GazeConfederate = new System.Windows.Forms.Button();
+            this.GazeGame = new System.Windows.Forms.Button();
+            this.GazeElsewhere = new System.Windows.Forms.Button();
+            this.GazeParticipant = new System.Windows.Forms.Button();
             this.PanicBox.SuspendLayout();
             this.LibrariesBox.SuspendLayout();
             this.GazeBox.SuspendLayout();
@@ -223,42 +223,14 @@
             this.GazeBox.TabStop = false;
             this.GazeBox.Text = "GazeBox";
             // 
-            // GazeParticipant
+            // GazeState
             // 
-            this.GazeParticipant.Location = new System.Drawing.Point(97, 54);
-            this.GazeParticipant.Name = "GazeParticipant";
-            this.GazeParticipant.Size = new System.Drawing.Size(80, 80);
-            this.GazeParticipant.TabIndex = 0;
-            this.GazeParticipant.Text = "Gaze Participant";
-            this.GazeParticipant.UseVisualStyleBackColor = true;
-            // 
-            // GazeElsewhere
-            // 
-            this.GazeElsewhere.Location = new System.Drawing.Point(11, 140);
-            this.GazeElsewhere.Name = "GazeElsewhere";
-            this.GazeElsewhere.Size = new System.Drawing.Size(80, 80);
-            this.GazeElsewhere.TabIndex = 1;
-            this.GazeElsewhere.Text = "Gaze Elsewhere";
-            this.GazeElsewhere.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.GazeElsewhere.UseVisualStyleBackColor = true;
-            // 
-            // GazeGame
-            // 
-            this.GazeGame.Location = new System.Drawing.Point(97, 140);
-            this.GazeGame.Name = "GazeGame";
-            this.GazeGame.Size = new System.Drawing.Size(80, 80);
-            this.GazeGame.TabIndex = 2;
-            this.GazeGame.Text = "Gaze Game";
-            this.GazeGame.UseVisualStyleBackColor = true;
-            // 
-            // GazeConfederate
-            // 
-            this.GazeConfederate.Location = new System.Drawing.Point(11, 54);
-            this.GazeConfederate.Name = "GazeConfederate";
-            this.GazeConfederate.Size = new System.Drawing.Size(80, 80);
-            this.GazeConfederate.TabIndex = 3;
-            this.GazeConfederate.Text = "Gaze Confederate";
-            this.GazeConfederate.UseVisualStyleBackColor = true;
+            this.GazeState.AutoSize = true;
+            this.GazeState.Location = new System.Drawing.Point(75, 28);
+            this.GazeState.Name = "GazeState";
+            this.GazeState.Size = new System.Drawing.Size(16, 13);
+            this.GazeState.TabIndex = 5;
+            this.GazeState.Text = "...";
             // 
             // GazeStateLabel
             // 
@@ -269,14 +241,46 @@
             this.GazeStateLabel.TabIndex = 4;
             this.GazeStateLabel.Text = "Gaze State:";
             // 
-            // GazeState
+            // GazeConfederate
             // 
-            this.GazeState.AutoSize = true;
-            this.GazeState.Location = new System.Drawing.Point(75, 28);
-            this.GazeState.Name = "GazeState";
-            this.GazeState.Size = new System.Drawing.Size(16, 13);
-            this.GazeState.TabIndex = 5;
-            this.GazeState.Text = "...";
+            this.GazeConfederate.Location = new System.Drawing.Point(11, 54);
+            this.GazeConfederate.Name = "GazeConfederate";
+            this.GazeConfederate.Size = new System.Drawing.Size(80, 80);
+            this.GazeConfederate.TabIndex = 3;
+            this.GazeConfederate.Text = "Gaze Confederate";
+            this.GazeConfederate.UseVisualStyleBackColor = true;
+            this.GazeConfederate.Click += new System.EventHandler(this.GazeConfederate_Click);
+            // 
+            // GazeGame
+            // 
+            this.GazeGame.Location = new System.Drawing.Point(97, 140);
+            this.GazeGame.Name = "GazeGame";
+            this.GazeGame.Size = new System.Drawing.Size(80, 80);
+            this.GazeGame.TabIndex = 2;
+            this.GazeGame.Text = "Gaze Game";
+            this.GazeGame.UseVisualStyleBackColor = true;
+            this.GazeGame.Click += new System.EventHandler(this.GazeGame_Click);
+            // 
+            // GazeElsewhere
+            // 
+            this.GazeElsewhere.Location = new System.Drawing.Point(11, 140);
+            this.GazeElsewhere.Name = "GazeElsewhere";
+            this.GazeElsewhere.Size = new System.Drawing.Size(80, 80);
+            this.GazeElsewhere.TabIndex = 1;
+            this.GazeElsewhere.Text = "Gaze Elsewhere";
+            this.GazeElsewhere.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.GazeElsewhere.UseVisualStyleBackColor = true;
+            this.GazeElsewhere.Click += new System.EventHandler(this.GazeElsewhere_Click);
+            // 
+            // GazeParticipant
+            // 
+            this.GazeParticipant.Location = new System.Drawing.Point(97, 54);
+            this.GazeParticipant.Name = "GazeParticipant";
+            this.GazeParticipant.Size = new System.Drawing.Size(80, 80);
+            this.GazeParticipant.TabIndex = 0;
+            this.GazeParticipant.Text = "Gaze Participant";
+            this.GazeParticipant.UseVisualStyleBackColor = true;
+            this.GazeParticipant.Click += new System.EventHandler(this.GazeParticipant_Click);
             // 
             // VorWOZForm
             // 

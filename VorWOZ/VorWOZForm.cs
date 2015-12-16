@@ -123,9 +123,6 @@ namespace VorWOZ
                 {
                     LibCategories.Items.Add(key);
                 }
-                
-
-                //Falta o restante código de actualizar as frases e afins
             });
         }
 
@@ -139,5 +136,24 @@ namespace VorWOZ
             });
         }
 
+        private void GazeConfederate_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("confederate");
+        }
+
+        private void GazeParticipant_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("participant");
+        }
+
+        private void GazeElsewhere_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("elsewhere");
+        }
+
+        private void GazeGame_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtScreen(0,0);
+        }
     }
 }

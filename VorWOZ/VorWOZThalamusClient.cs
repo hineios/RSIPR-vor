@@ -13,7 +13,7 @@ namespace VorWOZ
     public interface VorWOZThalamusClient : Skene.Interfaces.ILibraryEvents, 
         EmoteCommonMessages.IFMLSpeechEvents { }
     public interface VorWOZThalamusPublisher: IThalamusPublisher, 
-        EmoteCommonMessages.IFMLSpeech, Skene.Interfaces.ILibraryActions { }
+        EmoteCommonMessages.IFMLSpeech, Skene.Interfaces.ILibraryActions, EmoteCommonMessages.IGazeStateActions { }
 
     public class VorWOZClient : ThalamusClient, VorWOZThalamusClient
     {
@@ -39,6 +39,16 @@ namespace VorWOZ
                 publisher.ChangeLibrary(newLibrary);
             }
 
+            public void GazeAtScreen(double x, double y)
+            {
+                publisher.GazeAtScreen(x, y);
+            }
+
+            public void GazeAtTarget(string targetName)
+            {
+                publisher.GazeAtTarget(targetName);
+            }
+
             public void GetLibraries()
             {
                 publisher.GetLibraries();
@@ -47,6 +57,16 @@ namespace VorWOZ
             public void GetUtterances(string category, string subcategory)
             {
                 publisher.GetUtterances(category, subcategory);
+            }
+
+            public void GlanceAtScreen(double x, double y)
+            {
+                publisher.GlanceAtScreen(x, y);
+            }
+
+            public void GlanceAtTarget(string targetName)
+            {
+                GlanceAtTarget(targetName);
             }
 
             public void PerformUtterance(string id, string utterance, string category)
