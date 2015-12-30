@@ -1,3 +1,0 @@
-cd KinectV2
-start ThalamusKinect.exe VorThalamusMaster
-exit

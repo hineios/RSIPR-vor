@@ -1,3 +1,0 @@
-cd NuttyTracks\Binaries
-start NuttyTracksStandalone.exe
-exit
