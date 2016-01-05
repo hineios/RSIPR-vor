@@ -49,34 +49,39 @@
             this.GazeGame = new System.Windows.Forms.Button();
             this.GazeElsewhere = new System.Windows.Forms.Button();
             this.GazeParticipant = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TagValuesLabel = new System.Windows.Forms.Label();
+            this.TagValuesList = new System.Windows.Forms.TextBox();
+            this.TagNamesLabel = new System.Windows.Forms.Label();
+            this.TagNamesList = new System.Windows.Forms.TextBox();
+            this.UpdateTagValues = new System.Windows.Forms.Button();
             this.PanicBox.SuspendLayout();
             this.LibrariesBox.SuspendLayout();
             this.GazeBox.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanicSentences
             // 
-            this.PanicSentences.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanicSentences.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.PanicSentences.FormattingEnabled = true;
-            this.PanicSentences.ItemHeight = 24;
+            this.PanicSentences.ItemHeight = 25;
             this.PanicSentences.Items.AddRange(new object[] {
-            "Hello World!",
-            "I\'m not here to discuss that!",
-            "Just let it be!",
-            "Shut up!",
-            "Today is not the day!",
-            "What the hell?"});
+            "Concentrem-se no jogo por favor!",
+            "Não faças isso por favor.",
+            "Não se distraiam por favor.",
+            "Vamos lá pessoal."});
             this.PanicSentences.Location = new System.Drawing.Point(6, 19);
             this.PanicSentences.Name = "PanicSentences";
-            this.PanicSentences.Size = new System.Drawing.Size(274, 100);
+            this.PanicSentences.Size = new System.Drawing.Size(319, 104);
             this.PanicSentences.Sorted = true;
             this.PanicSentences.TabIndex = 3;
             // 
             // PanicSendButton
             // 
-            this.PanicSendButton.Location = new System.Drawing.Point(286, 19);
+            this.PanicSendButton.Location = new System.Drawing.Point(331, 19);
             this.PanicSendButton.Name = "PanicSendButton";
-            this.PanicSendButton.Size = new System.Drawing.Size(75, 104);
+            this.PanicSendButton.Size = new System.Drawing.Size(75, 100);
             this.PanicSendButton.TabIndex = 4;
             this.PanicSendButton.Text = "Send";
             this.PanicSendButton.UseVisualStyleBackColor = true;
@@ -87,26 +92,26 @@
             this.PanicBox.Controls.Add(this.PanicTextBox);
             this.PanicBox.Controls.Add(this.PanicSentences);
             this.PanicBox.Controls.Add(this.PanicSendButton);
-            this.PanicBox.Location = new System.Drawing.Point(928, 438);
+            this.PanicBox.Location = new System.Drawing.Point(1032, 540);
             this.PanicBox.Name = "PanicBox";
-            this.PanicBox.Size = new System.Drawing.Size(367, 167);
+            this.PanicBox.Size = new System.Drawing.Size(412, 167);
             this.PanicBox.TabIndex = 5;
             this.PanicBox.TabStop = false;
             this.PanicBox.Text = "Panic Sentences";
             // 
             // PanicTextBox
             // 
-            this.PanicTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PanicTextBox.Location = new System.Drawing.Point(7, 130);
+            this.PanicTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.PanicTextBox.Location = new System.Drawing.Point(6, 126);
             this.PanicTextBox.Name = "PanicTextBox";
-            this.PanicTextBox.Size = new System.Drawing.Size(354, 26);
+            this.PanicTextBox.Size = new System.Drawing.Size(400, 29);
             this.PanicTextBox.TabIndex = 5;
             // 
             // RobotStateLabel
             // 
             this.RobotStateLabel.AutoSize = true;
             this.RobotStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RobotStateLabel.Location = new System.Drawing.Point(12, 28);
+            this.RobotStateLabel.Location = new System.Drawing.Point(11, 8);
             this.RobotStateLabel.Name = "RobotStateLabel";
             this.RobotStateLabel.Size = new System.Drawing.Size(67, 13);
             this.RobotStateLabel.TabIndex = 6;
@@ -116,7 +121,7 @@
             // 
             this.RobotState.AutoSize = true;
             this.RobotState.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RobotState.Location = new System.Drawing.Point(77, 28);
+            this.RobotState.Location = new System.Drawing.Point(76, 8);
             this.RobotState.Name = "RobotState";
             this.RobotState.Size = new System.Drawing.Size(16, 13);
             this.RobotState.TabIndex = 7;
@@ -128,18 +133,18 @@
             this.LibrariesBox.Controls.Add(this.LibrarySelected);
             this.LibrariesBox.Controls.Add(this.ChangeLibraryButton);
             this.LibrariesBox.Controls.Add(this.LibrariesList);
-            this.LibrariesBox.Location = new System.Drawing.Point(1166, 12);
+            this.LibrariesBox.Location = new System.Drawing.Point(1196, 12);
             this.LibrariesBox.Name = "LibrariesBox";
-            this.LibrariesBox.Size = new System.Drawing.Size(129, 195);
+            this.LibrariesBox.Size = new System.Drawing.Size(248, 190);
             this.LibrariesBox.TabIndex = 10;
             this.LibrariesBox.TabStop = false;
             this.LibrariesBox.Text = "Libraries";
             // 
             // GetLibrariesButton
             // 
-            this.GetLibrariesButton.Location = new System.Drawing.Point(6, 165);
+            this.GetLibrariesButton.Location = new System.Drawing.Point(130, 114);
             this.GetLibrariesButton.Name = "GetLibrariesButton";
-            this.GetLibrariesButton.Size = new System.Drawing.Size(117, 23);
+            this.GetLibrariesButton.Size = new System.Drawing.Size(112, 67);
             this.GetLibrariesButton.TabIndex = 3;
             this.GetLibrariesButton.Text = "Get Libraries";
             this.GetLibrariesButton.UseVisualStyleBackColor = true;
@@ -158,9 +163,9 @@
             // ChangeLibraryButton
             // 
             this.ChangeLibraryButton.Enabled = false;
-            this.ChangeLibraryButton.Location = new System.Drawing.Point(6, 122);
+            this.ChangeLibraryButton.Location = new System.Drawing.Point(6, 114);
             this.ChangeLibraryButton.Name = "ChangeLibraryButton";
-            this.ChangeLibraryButton.Size = new System.Drawing.Size(117, 37);
+            this.ChangeLibraryButton.Size = new System.Drawing.Size(118, 67);
             this.ChangeLibraryButton.TabIndex = 1;
             this.ChangeLibraryButton.Text = "Change";
             this.ChangeLibraryButton.UseVisualStyleBackColor = true;
@@ -173,7 +178,7 @@
             this.LibrariesList.ItemHeight = 24;
             this.LibrariesList.Location = new System.Drawing.Point(6, 32);
             this.LibrariesList.Name = "LibrariesList";
-            this.LibrariesList.Size = new System.Drawing.Size(117, 76);
+            this.LibrariesList.Size = new System.Drawing.Size(236, 76);
             this.LibrariesList.TabIndex = 0;
             this.LibrariesList.SelectedIndexChanged += new System.EventHandler(this.LibrariesList_SelectedIndexChanged);
             // 
@@ -182,9 +187,9 @@
             this.LibCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LibCategories.FormattingEnabled = true;
             this.LibCategories.ItemHeight = 24;
-            this.LibCategories.Location = new System.Drawing.Point(13, 48);
+            this.LibCategories.Location = new System.Drawing.Point(12, 28);
             this.LibCategories.Name = "LibCategories";
-            this.LibCategories.Size = new System.Drawing.Size(251, 532);
+            this.LibCategories.Size = new System.Drawing.Size(291, 676);
             this.LibCategories.TabIndex = 11;
             this.LibCategories.SelectedIndexChanged += new System.EventHandler(this.LibCategories_SelectedIndexChanged);
             // 
@@ -193,14 +198,14 @@
             this.LibSubCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LibSubCategories.FormattingEnabled = true;
             this.LibSubCategories.ItemHeight = 24;
-            this.LibSubCategories.Location = new System.Drawing.Point(271, 48);
+            this.LibSubCategories.Location = new System.Drawing.Point(309, 28);
             this.LibSubCategories.Name = "LibSubCategories";
-            this.LibSubCategories.Size = new System.Drawing.Size(283, 532);
+            this.LibSubCategories.Size = new System.Drawing.Size(283, 676);
             this.LibSubCategories.TabIndex = 12;
             // 
             // PerformUtterance
             // 
-            this.PerformUtterance.Location = new System.Drawing.Point(560, 48);
+            this.PerformUtterance.Location = new System.Drawing.Point(598, 28);
             this.PerformUtterance.Name = "PerformUtterance";
             this.PerformUtterance.Size = new System.Drawing.Size(100, 100);
             this.PerformUtterance.TabIndex = 13;
@@ -216,9 +221,9 @@
             this.GazeBox.Controls.Add(this.GazeGame);
             this.GazeBox.Controls.Add(this.GazeElsewhere);
             this.GazeBox.Controls.Add(this.GazeParticipant);
-            this.GazeBox.Location = new System.Drawing.Point(817, 48);
+            this.GazeBox.Location = new System.Drawing.Point(1032, 244);
             this.GazeBox.Name = "GazeBox";
-            this.GazeBox.Size = new System.Drawing.Size(188, 232);
+            this.GazeBox.Size = new System.Drawing.Size(412, 290);
             this.GazeBox.TabIndex = 14;
             this.GazeBox.TabStop = false;
             this.GazeBox.Text = "GazeBox";
@@ -243,9 +248,9 @@
             // 
             // GazeConfederate
             // 
-            this.GazeConfederate.Location = new System.Drawing.Point(11, 54);
+            this.GazeConfederate.Location = new System.Drawing.Point(9, 47);
             this.GazeConfederate.Name = "GazeConfederate";
-            this.GazeConfederate.Size = new System.Drawing.Size(80, 80);
+            this.GazeConfederate.Size = new System.Drawing.Size(123, 113);
             this.GazeConfederate.TabIndex = 3;
             this.GazeConfederate.Text = "Gaze Confederate";
             this.GazeConfederate.UseVisualStyleBackColor = true;
@@ -253,9 +258,9 @@
             // 
             // GazeGame
             // 
-            this.GazeGame.Location = new System.Drawing.Point(97, 140);
+            this.GazeGame.Location = new System.Drawing.Point(138, 166);
             this.GazeGame.Name = "GazeGame";
-            this.GazeGame.Size = new System.Drawing.Size(80, 80);
+            this.GazeGame.Size = new System.Drawing.Size(123, 113);
             this.GazeGame.TabIndex = 2;
             this.GazeGame.Text = "Gaze Game";
             this.GazeGame.UseVisualStyleBackColor = true;
@@ -263,9 +268,9 @@
             // 
             // GazeElsewhere
             // 
-            this.GazeElsewhere.Location = new System.Drawing.Point(11, 140);
+            this.GazeElsewhere.Location = new System.Drawing.Point(9, 166);
             this.GazeElsewhere.Name = "GazeElsewhere";
-            this.GazeElsewhere.Size = new System.Drawing.Size(80, 80);
+            this.GazeElsewhere.Size = new System.Drawing.Size(123, 113);
             this.GazeElsewhere.TabIndex = 1;
             this.GazeElsewhere.Text = "Gaze Elsewhere";
             this.GazeElsewhere.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -274,20 +279,85 @@
             // 
             // GazeParticipant
             // 
-            this.GazeParticipant.Location = new System.Drawing.Point(97, 54);
+            this.GazeParticipant.Location = new System.Drawing.Point(138, 47);
             this.GazeParticipant.Name = "GazeParticipant";
-            this.GazeParticipant.Size = new System.Drawing.Size(80, 80);
+            this.GazeParticipant.Size = new System.Drawing.Size(123, 113);
             this.GazeParticipant.TabIndex = 0;
             this.GazeParticipant.Text = "Gaze Participant";
             this.GazeParticipant.UseVisualStyleBackColor = true;
             this.GazeParticipant.Click += new System.EventHandler(this.GazeParticipant_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.UpdateTagValues);
+            this.groupBox1.Controls.Add(this.TagValuesLabel);
+            this.groupBox1.Controls.Add(this.TagValuesList);
+            this.groupBox1.Controls.Add(this.TagNamesLabel);
+            this.groupBox1.Controls.Add(this.TagNamesList);
+            this.groupBox1.Location = new System.Drawing.Point(598, 366);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(412, 341);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // TagValuesLabel
+            // 
+            this.TagValuesLabel.AutoSize = true;
+            this.TagValuesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.TagValuesLabel.Location = new System.Drawing.Point(293, 20);
+            this.TagValuesLabel.Name = "TagValuesLabel";
+            this.TagValuesLabel.Size = new System.Drawing.Size(113, 25);
+            this.TagValuesLabel.TabIndex = 3;
+            this.TagValuesLabel.Text = "Tag Values";
+            // 
+            // TagValuesList
+            // 
+            this.TagValuesList.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.TagValuesList.Location = new System.Drawing.Point(220, 51);
+            this.TagValuesList.Multiline = true;
+            this.TagValuesList.Name = "TagValuesList";
+            this.TagValuesList.Size = new System.Drawing.Size(186, 226);
+            this.TagValuesList.TabIndex = 2;
+            this.TagValuesList.Text = "Fábio\r\nAndré\r\no Fábio\r\no André";
+            // 
+            // TagNamesLabel
+            // 
+            this.TagNamesLabel.AutoSize = true;
+            this.TagNamesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.TagNamesLabel.Location = new System.Drawing.Point(6, 20);
+            this.TagNamesLabel.Name = "TagNamesLabel";
+            this.TagNamesLabel.Size = new System.Drawing.Size(114, 25);
+            this.TagNamesLabel.TabIndex = 1;
+            this.TagNamesLabel.Text = "Tag Names";
+            // 
+            // TagNamesList
+            // 
+            this.TagNamesList.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.TagNamesList.Location = new System.Drawing.Point(6, 51);
+            this.TagNamesList.Multiline = true;
+            this.TagNamesList.Name = "TagNamesList";
+            this.TagNamesList.Size = new System.Drawing.Size(194, 226);
+            this.TagNamesList.TabIndex = 0;
+            this.TagNamesList.Text = "/participant/\r\n/participantGender/\r\n/confederate/\r\n/confederateGender/";
+            // 
+            // UpdateTagValues
+            // 
+            this.UpdateTagValues.Location = new System.Drawing.Point(137, 283);
+            this.UpdateTagValues.Name = "UpdateTagValues";
+            this.UpdateTagValues.Size = new System.Drawing.Size(150, 52);
+            this.UpdateTagValues.TabIndex = 4;
+            this.UpdateTagValues.Text = "Update";
+            this.UpdateTagValues.UseVisualStyleBackColor = true;
+            this.UpdateTagValues.Click += new System.EventHandler(this.UpdateTagValues_Click);
             // 
             // VorWOZForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1307, 617);
+            this.ClientSize = new System.Drawing.Size(1456, 719);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.GazeBox);
             this.Controls.Add(this.PerformUtterance);
             this.Controls.Add(this.LibSubCategories);
@@ -305,6 +375,8 @@
             this.LibrariesBox.PerformLayout();
             this.GazeBox.ResumeLayout(false);
             this.GazeBox.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,6 +404,12 @@
         private System.Windows.Forms.Button GazeGame;
         private System.Windows.Forms.Button GazeElsewhere;
         private System.Windows.Forms.Button GazeParticipant;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label TagValuesLabel;
+        private System.Windows.Forms.TextBox TagValuesList;
+        private System.Windows.Forms.Label TagNamesLabel;
+        private System.Windows.Forms.TextBox TagNamesList;
+        private System.Windows.Forms.Button UpdateTagValues;
     }
 }
 

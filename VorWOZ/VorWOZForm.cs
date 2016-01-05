@@ -94,11 +94,38 @@ namespace VorWOZ
             }
         }
 
+        private void GazeConfederate_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("person");
+        }
+
+        private void GazeParticipant_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("person2");
+        }
+
+        private void GazeElsewhere_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtTarget("elsewhere");
+        }
+
+        private void GazeGame_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GazeAtScreen(0, 0);
+        }
+
+        private void UpdateTagValues_Click(object sender, EventArgs e)
+        {
+            tagNames = TagNamesList.Text.Split('\n');
+            tagValues = TagValuesList.Text.Split('\n');
+        }
 
 
 
 
-
+        /*
+         * Public methods to allow Updates to the interface
+         */
         public void RobotStateChange(string text, Color color)
         {
             this.Invoke((MethodInvoker)delegate {
@@ -136,24 +163,6 @@ namespace VorWOZ
             });
         }
 
-        private void GazeConfederate_Click(object sender, EventArgs e)
-        {
-            tclient.vorPublisher.GazeAtTarget("confederate");
-        }
-
-        private void GazeParticipant_Click(object sender, EventArgs e)
-        {
-            tclient.vorPublisher.GazeAtTarget("participant");
-        }
-
-        private void GazeElsewhere_Click(object sender, EventArgs e)
-        {
-            tclient.vorPublisher.GazeAtTarget("elsewhere");
-        }
-
-        private void GazeGame_Click(object sender, EventArgs e)
-        {
-            tclient.vorPublisher.GazeAtScreen(0,0);
-        }
+        
     }
 }
