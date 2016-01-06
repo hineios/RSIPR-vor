@@ -80,6 +80,7 @@ namespace VorWOZ
                     LibSubCategories.Items.Add(sub);
                 }
             }
+            PerformUtterance.Enabled = false;
         }
         
         private void PerformUtterance_Click(object sender, EventArgs e)
@@ -96,22 +97,32 @@ namespace VorWOZ
 
         private void GazeConfederate_Click(object sender, EventArgs e)
         {
-            tclient.vorPublisher.GazeAtTarget("person");
+            tclient.vorPublisher.GazeAtTarget("person2");
+        }
+
+        private void GlanceConfederate_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GlanceAtTarget("person2");
         }
 
         private void GazeParticipant_Click(object sender, EventArgs e)
         {
-            tclient.vorPublisher.GazeAtTarget("person2");
+            tclient.vorPublisher.GazeAtTarget("person");
+        }
+        
+        private void GlanceParticipant_Click(object sender, EventArgs e)
+        {
+            tclient.vorPublisher.GlanceAtTarget("person");
         }
 
         private void GazeElsewhere_Click(object sender, EventArgs e)
         {
-            tclient.vorPublisher.GazeAtTarget("elsewhere");
+            tclient.vorPublisher.GazeAtTarget("random");
         }
 
         private void GazeGame_Click(object sender, EventArgs e)
         {
-            tclient.vorPublisher.GazeAtScreen(0, 0);
+            tclient.vorPublisher.GazeAtTarget("clicks");
         }
 
         private void UpdateTagValues_Click(object sender, EventArgs e)
@@ -119,7 +130,23 @@ namespace VorWOZ
             tagNames = TagNamesList.Text.Split('\n');
             tagValues = TagValuesList.Text.Split('\n');
         }
+        private void VorWOZForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            tclient.Dispose();
+        }
 
+        private void LibSubCategories_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            object selected = LibSubCategories.SelectedItem;
+            if (selected != null)
+            {
+                PerformUtterance.Enabled = true;
+            }
+            else
+            {
+                PerformUtterance.Enabled = false;
+            }
+        }
 
 
 
@@ -131,6 +158,14 @@ namespace VorWOZ
             this.Invoke((MethodInvoker)delegate {
                 RobotState.Text = text;
                 RobotState.ForeColor = color;
+            });
+        }
+
+        public void ThalamusClientChangeState(string text, Color color)
+        {
+            this.Invoke((MethodInvoker)delegate {
+                ThalamusState.Text = text;
+                ThalamusState.ForeColor = color;
             });
         }
 
