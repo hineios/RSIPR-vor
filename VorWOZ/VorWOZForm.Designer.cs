@@ -50,11 +50,11 @@
             this.GazeElsewhere = new System.Windows.Forms.Button();
             this.GazeParticipant = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.UpdateTagValues = new System.Windows.Forms.Button();
             this.TagValuesLabel = new System.Windows.Forms.Label();
             this.TagValuesList = new System.Windows.Forms.TextBox();
             this.TagNamesLabel = new System.Windows.Forms.Label();
             this.TagNamesList = new System.Windows.Forms.TextBox();
-            this.UpdateTagValues = new System.Windows.Forms.Button();
             this.PanicBox.SuspendLayout();
             this.LibrariesBox.SuspendLayout();
             this.GazeBox.SuspendLayout();
@@ -301,6 +301,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // UpdateTagValues
+            // 
+            this.UpdateTagValues.Location = new System.Drawing.Point(137, 283);
+            this.UpdateTagValues.Name = "UpdateTagValues";
+            this.UpdateTagValues.Size = new System.Drawing.Size(150, 52);
+            this.UpdateTagValues.TabIndex = 4;
+            this.UpdateTagValues.Text = "Update";
+            this.UpdateTagValues.UseVisualStyleBackColor = true;
+            this.UpdateTagValues.Click += new System.EventHandler(this.UpdateTagValues_Click);
+            // 
             // TagValuesLabel
             // 
             this.TagValuesLabel.AutoSize = true;
@@ -319,7 +329,7 @@
             this.TagValuesList.Name = "TagValuesList";
             this.TagValuesList.Size = new System.Drawing.Size(186, 226);
             this.TagValuesList.TabIndex = 2;
-            this.TagValuesList.Text = "Fábio\r\nAndré\r\no Fábio\r\no André";
+            this.TagValuesList.Text = "Fábio\r\no Fábio\r\nAndré\r\no André";
             // 
             // TagNamesLabel
             // 
@@ -341,22 +351,12 @@
             this.TagNamesList.TabIndex = 0;
             this.TagNamesList.Text = "/participant/\r\n/participantGender/\r\n/confederate/\r\n/confederateGender/";
             // 
-            // UpdateTagValues
-            // 
-            this.UpdateTagValues.Location = new System.Drawing.Point(137, 283);
-            this.UpdateTagValues.Name = "UpdateTagValues";
-            this.UpdateTagValues.Size = new System.Drawing.Size(150, 52);
-            this.UpdateTagValues.TabIndex = 4;
-            this.UpdateTagValues.Text = "Update";
-            this.UpdateTagValues.UseVisualStyleBackColor = true;
-            this.UpdateTagValues.Click += new System.EventHandler(this.UpdateTagValues_Click);
-            // 
             // VorWOZForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1456, 719);
+            this.ClientSize = new System.Drawing.Size(1362, 736);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.GazeBox);
             this.Controls.Add(this.PerformUtterance);
