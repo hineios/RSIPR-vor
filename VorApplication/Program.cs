@@ -11,14 +11,15 @@ namespace VorApplication
     {
         static int Main(string[] args)
         {
+            VorApplicationClient tclient = new VorApplicationClient();
             HttpServer httpServer;
             if (args.GetLength(0) > 0)
             {
-                httpServer = new MyHttpServer(Convert.ToInt16(args[0]));
+                httpServer = new MyHttpServer(Convert.ToInt16(args[0]), tclient);
             }
             else
             {
-                httpServer = new MyHttpServer(8080);
+                httpServer = new MyHttpServer(8080, tclient);
             }
             Thread thread = new Thread(new ThreadStart(httpServer.listen));
             thread.Start();
@@ -246,9 +247,11 @@ namespace VorApplication
 
     public class MyHttpServer : HttpServer
     {
-        public MyHttpServer(int port)
-            : base(port)
+        VorApplicationClient tclient;
+
+        public MyHttpServer(int port, VorApplicationClient tclient) : base(port)
         {
+            this.tclient = tclient;
         }
         public override void handleGETRequest(HttpProcessor p)
         {
@@ -262,19 +265,20 @@ namespace VorApplication
                 p.outputStream.BaseStream.Flush();
             }
 
+            String htmlPage = File.ReadAllText("./web/index.html");
+
             Console.WriteLine("request: {0}", p.http_url);
             p.writeSuccess();
-            p.outputStream.WriteLine("<html><body><h1>test server</h1>");
-            p.outputStream.WriteLine("Current Time: " + DateTime.Now.ToString());
-            p.outputStream.WriteLine("url : {0}", p.http_url);
-
-            p.outputStream.WriteLine("<form method=post action=/form>");
-            p.outputStream.WriteLine("<input type=text name=foo value=foovalue>");
-            p.outputStream.WriteLine("<input type=submit name=bar value=barvalue>");
-            p.outputStream.WriteLine("</form>");
+            p.outputStream.WriteLine(htmlPage);
         }
         public override void handlePOSTRequest(HttpProcessor p, StreamReader inputData)
         {
+
+            /*****
+
+                AQUI É PARA TRATAR OS POSTS QUE A APLICAÇÃO FAZ"
+
+            */
             Console.WriteLine("POST request: {0}", p.http_url);
             string data = inputData.ReadToEnd();
 

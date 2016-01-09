@@ -37,7 +37,6 @@ namespace VorWOZ
                 tclient.vorPublisher.PerformUtterance("", PanicTextBox.Text.ToString(), "");
             }
         }
-
         private void ChangeLibraryButton_Click(object sender, EventArgs e)
         {
             object lib = LibrariesList.SelectedItem;
@@ -48,7 +47,6 @@ namespace VorWOZ
                 LibrarySelected.ForeColor = Color.Orange;
             }
         }
-
         private void LibrariesList_SelectedIndexChanged(object sender, EventArgs e)
         {
             object selectedLib = LibrariesList.SelectedItem;
@@ -62,13 +60,11 @@ namespace VorWOZ
                 }
             }
         }
-
         private void GetLibrariesButton_Click(object sender, EventArgs e)
         {
             LibrariesList.Items.Clear();
             tclient.vorPublisher.GetLibraries();
         }
-
         private void LibCategories_SelectedIndexChanged(object sender, EventArgs e)
         {
             LibSubCategories.Items.Clear();
@@ -82,7 +78,6 @@ namespace VorWOZ
             }
             PerformUtterance.Enabled = false;
         }
-        
         private void PerformUtterance_Click(object sender, EventArgs e)
         {
             object cat = LibCategories.SelectedItem;
@@ -94,37 +89,30 @@ namespace VorWOZ
                 tclient.vorPublisher.PerformUtteranceFromLibrary(lastUtterance, cat.ToString(), subCat.ToString(), tagNames, tagValues);
             }
         }
-
         private void GazeConfederate_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GazeAtTarget("person2");
         }
-
         private void GlanceConfederate_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GlanceAtTarget("person2");
         }
-
         private void GazeParticipant_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GazeAtTarget("person");
         }
-        
         private void GlanceParticipant_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GlanceAtTarget("person");
         }
-
         private void GazeElsewhere_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GazeAtTarget("random");
         }
-
         private void GazeGame_Click(object sender, EventArgs e)
         {
             tclient.vorPublisher.GazeAtTarget("clicks");
         }
-
         private void UpdateTagValues_Click(object sender, EventArgs e)
         {
             tagNames = TagNamesList.Text.Split('\n');
@@ -134,7 +122,6 @@ namespace VorWOZ
         {
             tclient.Dispose();
         }
-
         private void LibSubCategories_SelectedIndexChanged(object sender, EventArgs e)
         {
             object selected = LibSubCategories.SelectedItem;
