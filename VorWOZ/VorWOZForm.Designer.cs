@@ -43,6 +43,8 @@
             this.LibSubCategories = new System.Windows.Forms.ListBox();
             this.PerformUtterance = new System.Windows.Forms.Button();
             this.GazeBox = new System.Windows.Forms.GroupBox();
+            this.GlanceConfederate = new System.Windows.Forms.Button();
+            this.GlanceParticipant = new System.Windows.Forms.Button();
             this.GazeState = new System.Windows.Forms.Label();
             this.GazeStateLabel = new System.Windows.Forms.Label();
             this.GazeConfederate = new System.Windows.Forms.Button();
@@ -55,14 +57,26 @@
             this.TagValuesList = new System.Windows.Forms.TextBox();
             this.TagNamesLabel = new System.Windows.Forms.Label();
             this.TagNamesList = new System.Windows.Forms.TextBox();
-            this.GlanceParticipant = new System.Windows.Forms.Button();
-            this.GlanceConfederate = new System.Windows.Forms.Button();
             this.ThalamusStateLabel = new System.Windows.Forms.Label();
             this.ThalamusState = new System.Windows.Forms.Label();
+            this.GameControlsBox = new System.Windows.Forms.GroupBox();
+            this.EndGameButton = new System.Windows.Forms.Button();
+            this.StartGameButton = new System.Windows.Forms.Button();
+            this.GameStateLabel = new System.Windows.Forms.Label();
+            this.GameState = new System.Windows.Forms.Label();
+            this.FillWordButton = new System.Windows.Forms.Button();
+            this.GameFeedbackBox = new System.Windows.Forms.GroupBox();
+            this.WordsNotCompletedLabel = new System.Windows.Forms.Label();
+            this.WordsNotCompleted = new System.Windows.Forms.ComboBox();
+            this.FillWordBool = new System.Windows.Forms.Label();
+            this.FillWordNumber = new System.Windows.Forms.Label();
+            this.FillWordLabel = new System.Windows.Forms.Label();
             this.PanicBox.SuspendLayout();
             this.LibrariesBox.SuspendLayout();
             this.GazeBox.SuspendLayout();
             this.TagBox.SuspendLayout();
+            this.GameControlsBox.SuspendLayout();
+            this.GameFeedbackBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanicSentences
@@ -114,20 +128,20 @@
             // RobotStateLabel
             // 
             this.RobotStateLabel.AutoSize = true;
-            this.RobotStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RobotStateLabel.Location = new System.Drawing.Point(775, 44);
+            this.RobotStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RobotStateLabel.Location = new System.Drawing.Point(766, 31);
             this.RobotStateLabel.Name = "RobotStateLabel";
-            this.RobotStateLabel.Size = new System.Drawing.Size(82, 16);
+            this.RobotStateLabel.Size = new System.Drawing.Size(166, 31);
             this.RobotStateLabel.TabIndex = 6;
             this.RobotStateLabel.Text = "Robot State:";
             // 
             // RobotState
             // 
             this.RobotState.AutoSize = true;
-            this.RobotState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RobotState.Location = new System.Drawing.Point(854, 44);
+            this.RobotState.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RobotState.Location = new System.Drawing.Point(938, 31);
             this.RobotState.Name = "RobotState";
-            this.RobotState.Size = new System.Drawing.Size(17, 16);
+            this.RobotState.Size = new System.Drawing.Size(38, 31);
             this.RobotState.TabIndex = 7;
             this.RobotState.Text = "...";
             // 
@@ -235,6 +249,28 @@
             this.GazeBox.TabIndex = 14;
             this.GazeBox.TabStop = false;
             this.GazeBox.Text = "GazeBox";
+            // 
+            // GlanceConfederate
+            // 
+            this.GlanceConfederate.BackColor = System.Drawing.Color.Tomato;
+            this.GlanceConfederate.Location = new System.Drawing.Point(9, 153);
+            this.GlanceConfederate.Name = "GlanceConfederate";
+            this.GlanceConfederate.Size = new System.Drawing.Size(100, 100);
+            this.GlanceConfederate.TabIndex = 7;
+            this.GlanceConfederate.Text = "Glance Confederate";
+            this.GlanceConfederate.UseVisualStyleBackColor = false;
+            this.GlanceConfederate.Click += new System.EventHandler(this.GlanceConfederate_Click);
+            // 
+            // GlanceParticipant
+            // 
+            this.GlanceParticipant.BackColor = System.Drawing.Color.YellowGreen;
+            this.GlanceParticipant.Location = new System.Drawing.Point(115, 153);
+            this.GlanceParticipant.Name = "GlanceParticipant";
+            this.GlanceParticipant.Size = new System.Drawing.Size(100, 100);
+            this.GlanceParticipant.TabIndex = 6;
+            this.GlanceParticipant.Text = "Glance Participant";
+            this.GlanceParticipant.UseVisualStyleBackColor = false;
+            this.GlanceParticipant.Click += new System.EventHandler(this.GlanceParticipant_Click);
             // 
             // GazeState
             // 
@@ -359,56 +395,169 @@
             this.TagNamesList.Name = "TagNamesList";
             this.TagNamesList.Size = new System.Drawing.Size(194, 226);
             this.TagNamesList.TabIndex = 0;
-            this.TagNamesList.Text = "/participant/\r\n/participantGender/\r\n/confederate/\r\n/confederateGender/";
-            // 
-            // GlanceParticipant
-            // 
-            this.GlanceParticipant.BackColor = System.Drawing.Color.YellowGreen;
-            this.GlanceParticipant.Location = new System.Drawing.Point(115, 153);
-            this.GlanceParticipant.Name = "GlanceParticipant";
-            this.GlanceParticipant.Size = new System.Drawing.Size(100, 100);
-            this.GlanceParticipant.TabIndex = 6;
-            this.GlanceParticipant.Text = "Glance Participant";
-            this.GlanceParticipant.UseVisualStyleBackColor = false;
-            this.GlanceParticipant.Click += new System.EventHandler(this.GlanceParticipant_Click);
-            // 
-            // GlanceConfederate
-            // 
-            this.GlanceConfederate.BackColor = System.Drawing.Color.Tomato;
-            this.GlanceConfederate.Location = new System.Drawing.Point(9, 153);
-            this.GlanceConfederate.Name = "GlanceConfederate";
-            this.GlanceConfederate.Size = new System.Drawing.Size(100, 100);
-            this.GlanceConfederate.TabIndex = 7;
-            this.GlanceConfederate.Text = "Glance Confederate";
-            this.GlanceConfederate.UseVisualStyleBackColor = false;
-            this.GlanceConfederate.Click += new System.EventHandler(this.GlanceConfederate_Click);
+            this.TagNamesList.Text = "|participant|\r\n|participantGender|\r\n|confederate|\r\n|confederateGender|";
             // 
             // ThalamusStateLabel
             // 
             this.ThalamusStateLabel.AutoSize = true;
-            this.ThalamusStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThalamusStateLabel.Location = new System.Drawing.Point(778, 74);
+            this.ThalamusStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ThalamusStateLabel.Location = new System.Drawing.Point(769, 75);
             this.ThalamusStateLabel.Name = "ThalamusStateLabel";
-            this.ThalamusStateLabel.Size = new System.Drawing.Size(71, 16);
+            this.ThalamusStateLabel.Size = new System.Drawing.Size(141, 31);
             this.ThalamusStateLabel.TabIndex = 16;
             this.ThalamusStateLabel.Text = "Thalamus:";
             // 
             // ThalamusState
             // 
             this.ThalamusState.AutoSize = true;
-            this.ThalamusState.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThalamusState.Location = new System.Drawing.Point(851, 74);
+            this.ThalamusState.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ThalamusState.Location = new System.Drawing.Point(916, 75);
             this.ThalamusState.Name = "ThalamusState";
-            this.ThalamusState.Size = new System.Drawing.Size(17, 16);
+            this.ThalamusState.Size = new System.Drawing.Size(38, 31);
             this.ThalamusState.TabIndex = 17;
             this.ThalamusState.Text = "...";
+            // 
+            // GameControlsBox
+            // 
+            this.GameControlsBox.Controls.Add(this.EndGameButton);
+            this.GameControlsBox.Controls.Add(this.StartGameButton);
+            this.GameControlsBox.Controls.Add(this.GameStateLabel);
+            this.GameControlsBox.Controls.Add(this.GameState);
+            this.GameControlsBox.Location = new System.Drawing.Point(1031, 485);
+            this.GameControlsBox.Name = "GameControlsBox";
+            this.GameControlsBox.Size = new System.Drawing.Size(413, 131);
+            this.GameControlsBox.TabIndex = 18;
+            this.GameControlsBox.TabStop = false;
+            this.GameControlsBox.Text = "Game Controls";
+            // 
+            // EndGameButton
+            // 
+            this.EndGameButton.Enabled = false;
+            this.EndGameButton.Location = new System.Drawing.Point(112, 19);
+            this.EndGameButton.Name = "EndGameButton";
+            this.EndGameButton.Size = new System.Drawing.Size(100, 100);
+            this.EndGameButton.TabIndex = 1;
+            this.EndGameButton.Text = "End Game";
+            this.EndGameButton.UseVisualStyleBackColor = true;
+            this.EndGameButton.Click += new System.EventHandler(this.EndGameButton_Click);
+            // 
+            // StartGameButton
+            // 
+            this.StartGameButton.Enabled = false;
+            this.StartGameButton.Location = new System.Drawing.Point(6, 19);
+            this.StartGameButton.Name = "StartGameButton";
+            this.StartGameButton.Size = new System.Drawing.Size(100, 100);
+            this.StartGameButton.TabIndex = 0;
+            this.StartGameButton.Text = "Start Game";
+            this.StartGameButton.UseVisualStyleBackColor = true;
+            this.StartGameButton.Click += new System.EventHandler(this.StartGameButton_Click);
+            // 
+            // GameStateLabel
+            // 
+            this.GameStateLabel.AutoSize = true;
+            this.GameStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameStateLabel.Location = new System.Drawing.Point(236, 19);
+            this.GameStateLabel.Name = "GameStateLabel";
+            this.GameStateLabel.Size = new System.Drawing.Size(159, 31);
+            this.GameStateLabel.TabIndex = 0;
+            this.GameStateLabel.Text = "GameState:";
+            // 
+            // GameState
+            // 
+            this.GameState.AutoSize = true;
+            this.GameState.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameState.ForeColor = System.Drawing.Color.Firebrick;
+            this.GameState.Location = new System.Drawing.Point(238, 50);
+            this.GameState.Name = "GameState";
+            this.GameState.Size = new System.Drawing.Size(102, 24);
+            this.GameState.TabIndex = 1;
+            this.GameState.Text = "Not Started";
+            // 
+            // FillWordButton
+            // 
+            this.FillWordButton.Enabled = false;
+            this.FillWordButton.Location = new System.Drawing.Point(6, 183);
+            this.FillWordButton.Name = "FillWordButton";
+            this.FillWordButton.Size = new System.Drawing.Size(188, 37);
+            this.FillWordButton.TabIndex = 3;
+            this.FillWordButton.Text = "Fill Word";
+            this.FillWordButton.UseVisualStyleBackColor = true;
+            this.FillWordButton.Click += new System.EventHandler(this.FillWordButton_Click);
+            // 
+            // GameFeedbackBox
+            // 
+            this.GameFeedbackBox.Controls.Add(this.FillWordButton);
+            this.GameFeedbackBox.Controls.Add(this.WordsNotCompletedLabel);
+            this.GameFeedbackBox.Controls.Add(this.WordsNotCompleted);
+            this.GameFeedbackBox.Controls.Add(this.FillWordBool);
+            this.GameFeedbackBox.Controls.Add(this.FillWordNumber);
+            this.GameFeedbackBox.Controls.Add(this.FillWordLabel);
+            this.GameFeedbackBox.Location = new System.Drawing.Point(1031, 253);
+            this.GameFeedbackBox.Name = "GameFeedbackBox";
+            this.GameFeedbackBox.Size = new System.Drawing.Size(413, 226);
+            this.GameFeedbackBox.TabIndex = 19;
+            this.GameFeedbackBox.TabStop = false;
+            this.GameFeedbackBox.Text = "GameFeedbackBox";
+            // 
+            // WordsNotCompletedLabel
+            // 
+            this.WordsNotCompletedLabel.AutoSize = true;
+            this.WordsNotCompletedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WordsNotCompletedLabel.ForeColor = System.Drawing.Color.Firebrick;
+            this.WordsNotCompletedLabel.Location = new System.Drawing.Point(6, 114);
+            this.WordsNotCompletedLabel.Name = "WordsNotCompletedLabel";
+            this.WordsNotCompletedLabel.Size = new System.Drawing.Size(165, 20);
+            this.WordsNotCompletedLabel.TabIndex = 6;
+            this.WordsNotCompletedLabel.Text = "Words Not Completed";
+            // 
+            // WordsNotCompleted
+            // 
+            this.WordsNotCompleted.Enabled = false;
+            this.WordsNotCompleted.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WordsNotCompleted.FormattingEnabled = true;
+            this.WordsNotCompleted.Location = new System.Drawing.Point(6, 138);
+            this.WordsNotCompleted.Name = "WordsNotCompleted";
+            this.WordsNotCompleted.Size = new System.Drawing.Size(188, 39);
+            this.WordsNotCompleted.TabIndex = 5;
+            // 
+            // FillWordBool
+            // 
+            this.FillWordBool.AutoSize = true;
+            this.FillWordBool.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FillWordBool.Location = new System.Drawing.Point(277, 26);
+            this.FillWordBool.Name = "FillWordBool";
+            this.FillWordBool.Size = new System.Drawing.Size(38, 31);
+            this.FillWordBool.TabIndex = 4;
+            this.FillWordBool.Text = "...";
+            // 
+            // FillWordNumber
+            // 
+            this.FillWordNumber.AutoSize = true;
+            this.FillWordNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FillWordNumber.Location = new System.Drawing.Point(225, 26);
+            this.FillWordNumber.Name = "FillWordNumber";
+            this.FillWordNumber.Size = new System.Drawing.Size(46, 31);
+            this.FillWordNumber.TabIndex = 3;
+            this.FillWordNumber.Text = "nr.";
+            // 
+            // FillWordLabel
+            // 
+            this.FillWordLabel.AutoSize = true;
+            this.FillWordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FillWordLabel.Location = new System.Drawing.Point(99, 26);
+            this.FillWordLabel.Name = "FillWordLabel";
+            this.FillWordLabel.Size = new System.Drawing.Size(128, 31);
+            this.FillWordLabel.TabIndex = 2;
+            this.FillWordLabel.Text = "Fill Word:";
             // 
             // VorWOZForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1455, 801);
+            this.ClientSize = new System.Drawing.Size(1453, 802);
+            this.Controls.Add(this.GameFeedbackBox);
+            this.Controls.Add(this.GameControlsBox);
             this.Controls.Add(this.ThalamusState);
             this.Controls.Add(this.ThalamusStateLabel);
             this.Controls.Add(this.TagBox);
@@ -432,6 +581,10 @@
             this.GazeBox.PerformLayout();
             this.TagBox.ResumeLayout(false);
             this.TagBox.PerformLayout();
+            this.GameControlsBox.ResumeLayout(false);
+            this.GameControlsBox.PerformLayout();
+            this.GameFeedbackBox.ResumeLayout(false);
+            this.GameFeedbackBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -469,6 +622,18 @@
         private System.Windows.Forms.Button GlanceParticipant;
         private System.Windows.Forms.Label ThalamusStateLabel;
         private System.Windows.Forms.Label ThalamusState;
+        private System.Windows.Forms.GroupBox GameControlsBox;
+        private System.Windows.Forms.Button EndGameButton;
+        private System.Windows.Forms.Button StartGameButton;
+        private System.Windows.Forms.GroupBox GameFeedbackBox;
+        private System.Windows.Forms.Label FillWordBool;
+        private System.Windows.Forms.Label FillWordNumber;
+        private System.Windows.Forms.Label FillWordLabel;
+        private System.Windows.Forms.Label GameState;
+        private System.Windows.Forms.Label GameStateLabel;
+        private System.Windows.Forms.Button FillWordButton;
+        private System.Windows.Forms.Label WordsNotCompletedLabel;
+        private System.Windows.Forms.ComboBox WordsNotCompleted;
     }
 }
 
