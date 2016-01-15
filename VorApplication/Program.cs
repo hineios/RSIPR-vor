@@ -4,28 +4,92 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace VorApplication
 {
+    public class GameConnection
+    {
+        public string ip { get; set; }
+        public int port { get; set; }
+        public List<Word> words { get; set; }
+
+        public GameConnection(string ip, int port, List<Word> words)
+        {
+            this.ip = ip;
+            this.port = port;
+            this.words = words;
+        }
+
+        static public GameConnection Deserialize(string str)
+        {
+            return JsonConvert.DeserializeObject<GameConnection>(str);
+        }
+        static public string Serialize(GameConnection gc)
+        {
+            return JsonConvert.SerializeObject(gc);
+        }
+    }
+    public class Word
+    {
+        public string id { get; set; }
+        public string value { get; set; }
+
+        public Word(string id, string value)
+        {
+            this.id = id;
+            this.value = value;
+        }
+        static public Word Deserialize(string str)
+        {
+            return JsonConvert.DeserializeObject<Word>(str);
+        }
+        static public string Serialize(Word w)
+        {
+            return JsonConvert.SerializeObject(w);
+        }
+    }
+    public class PlayerNames
+    {
+        public string confederate { get; set; }
+        public string participant { get; set; }
+
+        public PlayerNames(string confederate, string participant)
+        {
+            this.confederate = confederate;
+            this.participant = participant;
+        }
+        static public PlayerNames Deserialize(string str)
+        {
+            return JsonConvert.DeserializeObject<PlayerNames>(str);
+        }
+        static public string Serialize(PlayerNames pn)
+        {
+            return JsonConvert.SerializeObject(pn);
+        }
+    }
     class Program
     {
         static int Main(string[] args)
         {
-            VorApplicationClient tclient = new VorApplicationClient();
             HttpServer httpServer;
-            if (args.GetLength(0) > 0)
+            if (args.GetLength(0) > 1)
             {
-                httpServer = new MyHttpServer(Convert.ToInt16(args[0]), tclient);
+                httpServer = new MyHttpServer(Convert.ToInt16(args[0]), args[1]);
+            }
+            else if (args.GetLength(0) > 0)
+            {
+                httpServer = new MyHttpServer(Convert.ToInt16(args[0]));
             }
             else
             {
-                httpServer = new MyHttpServer(8080, tclient);
+                httpServer = new MyHttpServer();
             }
             Thread thread = new Thread(new ThreadStart(httpServer.listen));
             thread.Start();
             return 0;
         }
-        
     }
 
     // offered to the public domain for any use with no restriction
@@ -87,6 +151,9 @@ namespace VorApplication
                 else if (http_method.Equals("POST"))
                 {
                     handlePOSTRequest();
+                }else if (http_method.Equals("OPTIONS"))
+                {
+                    handlePOSTRequest();
                 }
             }
             catch (Exception e)
@@ -111,17 +178,17 @@ namespace VorApplication
             http_url = tokens[1];
             http_protocol_versionstring = tokens[2];
 
-            Console.WriteLine("starting: " + request);
+            //Console.WriteLine("starting: " + request);
         }
         public void readHeaders()
         {
-            Console.WriteLine("readHeaders()");
+            //Console.WriteLine("readHeaders()");
             String line;
             while ((line = streamReadLine(inputStream)) != null)
             {
                 if (line.Equals(""))
                 {
-                    Console.WriteLine("got headers");
+                    //Console.WriteLine("got headers");
                     return;
                 }
 
@@ -138,7 +205,7 @@ namespace VorApplication
                 }
 
                 string value = line.Substring(pos, line.Length - pos);
-                Console.WriteLine("header: {0}:{1}", name, value);
+                //Console.WriteLine("header: {0}:{1}", name, value);
                 httpHeaders[name] = value;
             }
         }
@@ -155,7 +222,7 @@ namespace VorApplication
             // we hand him needs to let him see the "end of the stream" at this content 
             // length, because otherwise he won't know when he's seen it all! 
 
-            Console.WriteLine("get post data start");
+            //Console.WriteLine("get post data start");
             int content_len = 0;
             MemoryStream ms = new MemoryStream();
             if (this.httpHeaders.ContainsKey("Content-Length"))
@@ -171,10 +238,10 @@ namespace VorApplication
                 int to_read = content_len;
                 while (to_read > 0)
                 {
-                    Console.WriteLine("starting Read, to_read={0}", to_read);
+                    //Console.WriteLine("starting Read, to_read={0}", to_read);
 
                     int numread = this.inputStream.Read(buf, 0, Math.Min(BUF_SIZE, to_read));
-                    Console.WriteLine("read finished, numread={0}", numread);
+                    //Console.WriteLine("read finished, numread={0}", numread);
                     if (numread == 0)
                     {
                         if (to_read == 0)
@@ -191,7 +258,7 @@ namespace VorApplication
                 }
                 ms.Seek(0, SeekOrigin.Begin);
             }
-            Console.WriteLine("get post data end");
+            //Console.WriteLine("get post data end");
             srv.handlePOSTRequest(this, new StreamReader(ms));
 
         }
@@ -203,6 +270,9 @@ namespace VorApplication
             outputStream.WriteLine("Content-Type: " + content_type);
             outputStream.WriteLine("Connection: close");
             // ..add your own headers here if you like
+            outputStream.WriteLine("Access-Control-Allow-Origin: *");
+            outputStream.WriteLine("Access-Control-Allow-Methods: POST,GET,OPTIONS");
+            outputStream.WriteLine("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
             outputStream.WriteLine(""); // this terminates the HTTP headers.. everything after this is HTTP body..
         }
@@ -217,12 +287,12 @@ namespace VorApplication
             outputStream.WriteLine(""); // this terminates the HTTP headers.
         }
     }
-
     public abstract class HttpServer
     {
         protected int port;
         TcpListener listener;
         bool is_active = true;
+        protected VorApplicationClient tclient;
 
         public HttpServer(int port)
         {
@@ -230,7 +300,8 @@ namespace VorApplication
         }
         public void listen()
         {
-            listener = new TcpListener(port);
+            //listener = new TcpListener(port);
+            listener = new TcpListener(IPAddress.Any, port);
             listener.Start();
             while (is_active)
             {
@@ -240,54 +311,140 @@ namespace VorApplication
                 thread.Start();
                 Thread.Sleep(1);
             }
+            tclient.Dispose();
         }
         public abstract void handleGETRequest(HttpProcessor p);
         public abstract void handlePOSTRequest(HttpProcessor p, StreamReader inputData);
     }
-
     public class MyHttpServer : HttpServer
     {
-        VorApplicationClient tclient;
-
-        public MyHttpServer(int port, VorApplicationClient tclient) : base(port)
+        public MyHttpServer(int port = 8080, string master = "VorThalamusMaster") : base(port)
         {
-            this.tclient = tclient;
+            tclient = new VorApplicationClient(master);
         }
+
         public override void handleGETRequest(HttpProcessor p)
         {
-
-            if (p.http_url.Equals("/Test.png"))
-            {
-                Stream fs = File.Open("../../Test.png", FileMode.Open);
-
-                p.writeSuccess("image/png");
-                fs.CopyTo(p.outputStream.BaseStream);
-                p.outputStream.BaseStream.Flush();
-            }
-
-            String htmlPage = File.ReadAllText("./web/index.html");
-
-            Console.WriteLine("request: {0}", p.http_url);
-            p.writeSuccess();
-            p.outputStream.WriteLine(htmlPage);
+            Console.WriteLine("GET request: {0}", p.http_url);
+            p.writeFailure();
+            p.outputStream.BaseStream.Flush();
+            //p.outputStream.WriteLine("Mete-te na tua vida");
         }
         public override void handlePOSTRequest(HttpProcessor p, StreamReader inputData)
         {
-
-            /*****
-
-                AQUI É PARA TRATAR OS POSTS QUE A APLICAÇÃO FAZ"
-
-            */
-            Console.WriteLine("POST request: {0}", p.http_url);
-            string data = inputData.ReadToEnd();
-
-            p.writeSuccess();
-            p.outputStream.WriteLine("<html><body><h1>test server</h1>");
-            p.outputStream.WriteLine("<a href=/test>return</a><p>");
-            p.outputStream.WriteLine("postbody: <pre>{0}</pre>", data);
-
-
+            if (p.http_method.Equals("OPTIONS"))
+            {
+                p.writeSuccess();
+            }
+            else
+            {
+                Console.WriteLine("POST request: {0}", p.http_url);
+                string data = inputData.ReadToEnd();
+                //Console.WriteLine(data);
+                Word w;
+                GameConnection g;
+                PlayerNames pn;
+                switch (p.http_url.ToLower())
+                {
+                    //GameConnection
+                    case "/gameconnection":
+                        try
+                        {
+                            g = JsonConvert.DeserializeObject<GameConnection>(data);
+                            p.writeSuccess();
+                            Console.WriteLine("GameConnection: ip:{0} ; port:{1}; words:{2}", g.ip, g.port, g.words.Count);
+                            p.outputStream.WriteLine("<html><body><h1>OK</h1>");
+                            p.outputStream.BaseStream.Flush();
+                            tclient.PassServer(g.ip, g.port);
+                            //Pass information to WOZ
+                            tclient.vorPublisher.ApplicationLoaded(GameConnection.Serialize(g));
+                        }
+                        catch (Exception e)
+                        {
+                            p.writeFailure();
+                            Console.WriteLine("ERRO JSON: {0}", e.ToString());
+                        }
+                        break;
+                    //PlayerNames
+                    case "/playernames":
+                        try {
+                            pn = JsonConvert.DeserializeObject<PlayerNames>(data);
+                            Console.WriteLine("Player Names: confederate:{0} ; participant:{1}", pn.confederate, pn.participant);
+                            p.writeSuccess();
+                            p.outputStream.WriteLine("<html><body><h1>OK</h1>");
+                            p.outputStream.BaseStream.Flush();
+                            //Pass information to WOZ
+                            tclient.vorPublisher.ApplicationReady(pn.confederate, pn.participant);
+                        }
+                        catch (Exception e)
+                        {
+                            p.writeFailure();
+                            Console.WriteLine("ERRO JSON: {0}", e.ToString());
+                        }
+                        break;
+                    //WordAccepted
+                    case "/wordaccepted":
+                        try
+                        {
+                            w = JsonConvert.DeserializeObject<Word>(data);
+                            p.writeSuccess();
+                            Console.WriteLine("Word Accepted: id:{0} ; value:{1}", w.id, w.value);
+                            p.outputStream.WriteLine("<html><body><h1>OK</h1>");
+                            p.outputStream.BaseStream.Flush();
+                            //Pass information to WOZ
+                            tclient.vorPublisher.WordAccepted(w.id);
+                        }
+                        catch (Exception e)
+                        {
+                            p.writeFailure();
+                            Console.WriteLine("ERRO JSON: {0}", e.ToString());
+                        }   
+                        break;
+                    //WordDeclined
+                    case "/worddeclined":
+                        try
+                        {
+                            w = JsonConvert.DeserializeObject<Word>(data);
+                            p.writeSuccess();
+                            Console.WriteLine("Word Declined: id:{0} ; value:{1}", w.id, w.value);
+                            p.outputStream.WriteLine("<html><body><h1>OK</h1>");
+                            p.outputStream.BaseStream.Flush();
+                            //Pass information to WOZ
+                            tclient.vorPublisher.WordDeclined(w.id);
+                        }
+                        catch (Exception e)
+                        {
+                            p.writeFailure();
+                            Console.WriteLine("ERRO JSON: {0}", e.ToString());
+                        }
+                        break;
+                    //SelectedWord
+                    case "/selectedword":
+                        try
+                        {
+                            w = JsonConvert.DeserializeObject<Word>(data);
+                            p.writeSuccess();
+                            Console.WriteLine("Selected Word: id:{0} ; value:{1}", w.id, w.value);
+                            p.outputStream.WriteLine("<html><body><h1>OK</h1>");
+                            p.outputStream.BaseStream.Flush();
+                            //Pass information to WOZ
+                            tclient.vorPublisher.WordSelected(w.id);
+                        }
+                        catch (Exception e)
+                        {
+                            p.writeFailure();
+                            Console.WriteLine("ERRO JSON: {0}", e.ToString());
+                        }
+                        break;
+                    case "/tipnotselected":
+                        p.writeSuccess();
+                        p.outputStream.BaseStream.Flush();
+                        tclient.vorPublisher.TipNotSelected();
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
     }
 }
