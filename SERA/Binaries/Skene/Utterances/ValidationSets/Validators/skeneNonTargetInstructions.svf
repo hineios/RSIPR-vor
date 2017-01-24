@@ -1,0 +1,4 @@
+{
+"ValidValues":["ANIMATE","HEADNOD","HEADNODNEGATIVE","GAME","FACE","FACESHIFT","EYEBLINK","SLOWEYEBLINK"],
+"CaseSensitive":false
+}

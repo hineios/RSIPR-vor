@@ -1,0 +1,708 @@
+{
+  "RVFilter": false,
+  "DirtyFilter": false,
+  "Choker": 50,
+  "GlobalSpeedOverride": -1.0,
+  "Output": "NuttyJsonStreamOutputVirtual",
+  "OutputArgs": "localhost:7884",
+  "BodyModel": "NDOEyesBodyModel",
+  "Layers": [
+    {
+      "Name": "Layer0",
+      "Active": true,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_Color",
+            "BlendTimeValue": "0",
+            "FloatValue": "0.1",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 673,
+          "Y": 197,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyesBrightness",
+            "BlendTimeValue": "0",
+            "FloatValue": "29.9238613091549",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 420,
+          "Y": 36,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "20.1592055210981",
+            "UPS": "51"
+          },
+          "X": 327,
+          "Y": 236,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "MinMaxWaveController",
+          "Parameters": {
+            "Minimum": "20",
+            "Maximum": "50",
+            "Frequency": "0.4",
+            "Phase": "0",
+            "Wave": "Sine",
+            "UPS": "50"
+          },
+          "X": 133,
+          "Y": 37,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "MinMaxWaveController",
+          "Parameters": {
+            "Minimum": "5",
+            "Maximum": "10",
+            "Frequency": "15",
+            "Phase": "0",
+            "Wave": "Sine",
+            "UPS": "50"
+          },
+          "X": 90,
+          "Y": 318,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 4,
+          "Child": 2
+        },
+        {
+          "Parent": 1,
+          "Child": 0
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 2,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 3
+        },
+        {
+          "InputCtrl": 1,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 2
+        }
+      ]
+    },
+    {
+      "Name": "Layer1",
+      "Active": true,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "VelocityThresholdFilter",
+          "Parameters": {
+            "FilterType": "HardKnee",
+            "VelocityThreshold": "1",
+            "Ratio": "6",
+            "SensorUpdate": "False",
+            "UPS": "50"
+          },
+          "X": 929,
+          "Y": 326,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "CoreGazeEyesBodySet.EyesVertical",
+            "BlendTimeValue": "0",
+            "FloatValue": "-20.050381894014",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 713,
+          "Y": 156,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "-0.0503818940140223",
+            "UPS": "50"
+          },
+          "X": 308,
+          "Y": 420,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "RandomController",
+          "Parameters": {
+            "Minimum": "-0.5",
+            "Maximum": "0.5",
+            "UPS": "51"
+          },
+          "X": 58,
+          "Y": 435,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "20",
+            "Frequency": "0.04",
+            "Phase": "1.57",
+            "Wave": "Square",
+            "UPS": "51"
+          },
+          "X": 51,
+          "Y": 309,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "CoreGazeEyesBodySet.EyesHorizontal",
+            "BlendTimeValue": "0",
+            "FloatValue": "19.8471201510854",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 705,
+          "Y": 18,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 6,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "-0.152879848914631",
+            "UPS": "51"
+          },
+          "X": 281,
+          "Y": 152,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 7,
+          "Name": "RandomController",
+          "Parameters": {
+            "Minimum": "-0.5",
+            "Maximum": "0.5",
+            "UPS": "51"
+          },
+          "X": 42,
+          "Y": 180,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 8,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "20",
+            "Frequency": "0.05",
+            "Phase": "0",
+            "Wave": "Square",
+            "UPS": "51"
+          },
+          "X": 33,
+          "Y": 52,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 4,
+          "Child": 2
+        },
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 8,
+          "Child": 6
+        },
+        {
+          "Parent": 5,
+          "Child": 1
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 2,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 3
+        },
+        {
+          "InputCtrl": 1,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 2
+        },
+        {
+          "InputCtrl": 6,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 7
+        },
+        {
+          "InputCtrl": 5,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        }
+      ]
+    },
+    {
+      "Name": "Layer3",
+      "Active": true,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "VelocityThresholdFilter",
+          "Parameters": {
+            "FilterType": "HardKnee",
+            "VelocityThreshold": "1",
+            "Ratio": "3",
+            "SensorUpdate": "False",
+            "UPS": "50"
+          },
+          "X": 855,
+          "Y": 182,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeRight_Vertical",
+            "BlendTimeValue": "0",
+            "FloatValue": "27.8830280303955",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 590,
+          "Y": 319,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "MultiplyFloatController",
+          "Parameters": {
+            "FloatValue": "-1",
+            "UPS": "102"
+          },
+          "X": 28,
+          "Y": 385,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "QuadRandomTimeController",
+          "Parameters": {
+            "MinimumAngle": "0",
+            "MaximumAngle": "30",
+            "TimeMinimum": "100",
+            "TimeMaximum": "5000",
+            "UPS": "102"
+          },
+          "X": 31,
+          "Y": 255,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_Vertical",
+            "BlendTimeValue": "0",
+            "FloatValue": "27.8830280303955",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 303,
+          "Y": 319,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeRight_InnerBrowUp",
+            "BlendTimeValue": "0",
+            "FloatValue": "9.3858060836792",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 574,
+          "Y": 169,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 6,
+          "Name": "MultiplyFloatController",
+          "Parameters": {
+            "FloatValue": "-1",
+            "UPS": "204"
+          },
+          "X": 34,
+          "Y": 172,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 7,
+          "Name": "QuadRandomTimeController",
+          "Parameters": {
+            "MinimumAngle": "0",
+            "MaximumAngle": "30",
+            "TimeMinimum": "300",
+            "TimeMaximum": "2000",
+            "UPS": "204"
+          },
+          "X": 14,
+          "Y": 54,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 8,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_InnerBrowUp",
+            "BlendTimeValue": "0",
+            "FloatValue": "9.3858060836792",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 300,
+          "Y": 166,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 9,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_LowerInnerLidUp",
+            "BlendTimeValue": "0",
+            "FloatValue": "9.3858060836792",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 573,
+          "Y": 19,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 10,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeRight_LowerInnerLidUp",
+            "BlendTimeValue": "0",
+            "FloatValue": "9.3858060836792",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 307,
+          "Y": 19,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 3,
+          "Child": 2
+        },
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 4,
+          "Child": 1
+        },
+        {
+          "Parent": 7,
+          "Child": 6
+        },
+        {
+          "Parent": 5,
+          "Child": 4
+        },
+        {
+          "Parent": 8,
+          "Child": 5
+        },
+        {
+          "Parent": 9,
+          "Child": 8
+        },
+        {
+          "Parent": 10,
+          "Child": 9
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 1,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 2
+        },
+        {
+          "InputCtrl": 4,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 2
+        },
+        {
+          "InputCtrl": 5,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        },
+        {
+          "InputCtrl": 8,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        },
+        {
+          "InputCtrl": 9,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        },
+        {
+          "InputCtrl": 10,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 6
+        }
+      ]
+    },
+    {
+      "Name": "Layer4",
+      "Active": true,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_Close",
+            "BlendTimeValue": "0",
+            "FloatValue": "59.6375337573109",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 706,
+          "Y": 81,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "AddFloatController",
+          "Parameters": {
+            "FloatValue": "7.09653012374831",
+            "UPS": "102"
+          },
+          "X": 379,
+          "Y": 236,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "MultiplyFloatController",
+          "Parameters": {
+            "FloatValue": "-1",
+            "UPS": "102"
+          },
+          "X": 331,
+          "Y": 344,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 3,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "100",
+            "Frequency": "0.1",
+            "Phase": "3.14",
+            "Wave": "Sine",
+            "UPS": "102"
+          },
+          "X": 64,
+          "Y": 247,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 4,
+          "Name": "WaveController",
+          "Parameters": {
+            "Amplitude": "100",
+            "Frequency": "0.15",
+            "Phase": "0",
+            "Wave": "Sine",
+            "UPS": "102"
+          },
+          "X": 113,
+          "Y": 90,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 5,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeRight_Close",
+            "BlendTimeValue": "0",
+            "FloatValue": "59.6375337573109",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 414,
+          "Y": 16,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 3,
+          "Child": 2
+        },
+        {
+          "Parent": 4,
+          "Child": 1
+        },
+        {
+          "Parent": 5,
+          "Child": 0
+        }
+      ],
+      "WireParameters": [
+        {
+          "InputCtrl": 1,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 2
+        },
+        {
+          "InputCtrl": 0,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 1
+        },
+        {
+          "InputCtrl": 5,
+          "Parameter": "FloatValue",
+          "OutputCtrl": 1
+        }
+      ]
+    },
+    {
+      "Name": "Layer5",
+      "Active": true,
+      "Components": 1,
+      "BlendMode": 1,
+      "Controllers": [
+        {
+          "Id": 0,
+          "Name": "VelocityThresholdFilter",
+          "Parameters": {
+            "FilterType": "HardKnee",
+            "VelocityThreshold": "1",
+            "Ratio": "30",
+            "SensorUpdate": "False",
+            "UPS": "0"
+          },
+          "X": 600,
+          "Y": 117,
+          "Active": false,
+          "Minimized": false
+        },
+        {
+          "Id": 1,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeRight_Color",
+            "BlendTimeValue": "0",
+            "FloatValue": "200",
+            "Additive": "False",
+            "UPS": "50"
+          },
+          "X": 313,
+          "Y": 176,
+          "Active": true,
+          "Minimized": false
+        },
+        {
+          "Id": 2,
+          "Name": "SendToChannelController",
+          "Parameters": {
+            "Channel": "NDOEyesBodySet.EyeLeft_Color",
+            "BlendTimeValue": "0",
+            "FloatValue": "200",
+            "Additive": "False",
+            "UPS": "51"
+          },
+          "X": 56,
+          "Y": 30,
+          "Active": true,
+          "Minimized": false
+        }
+      ],
+      "ControllerLinks": [
+        {
+          "Parent": 1,
+          "Child": 0
+        },
+        {
+          "Parent": 2,
+          "Child": 1
+        }
+      ],
+      "WireParameters": []
+    }
+  ]
+}

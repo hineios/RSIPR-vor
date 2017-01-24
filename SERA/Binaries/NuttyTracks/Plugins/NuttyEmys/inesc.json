@@ -1,0 +1,101 @@
+[
+{
+    "DOF" : 0,
+    "MinMotor" : 202,
+    "MaxMotor" : 610,
+    "ZeroAngle" : 429,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "HS-65HB"
+},
+{
+    "DOF" : 1,
+    "MinMotor" : 175,
+    "MaxMotor" : 617,
+    "ZeroAngle" : 569,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "HS-65HB"
+},
+{
+    "DOF" : 2,
+    "MinMotor" : 175,
+    "MaxMotor" : 620,
+    "ZeroAngle" : 587,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "HS-65HB"
+},
+{
+    "DOF" : 3,
+    "MinMotor" : 198,
+    "MaxMotor" : 615,
+    "ZeroAngle" : 406,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "HS-65HB"
+},
+{
+    "DOF" : 4,
+    "MinMotor" : 60,
+    "MaxMotor" : 900,
+    "ZeroAngle" : 60,
+    "Speed"     : 750,
+    "Invert"    : false,
+    "MotorType" : "OlhosPop"
+},
+{
+    "DOF" : 5,
+    "MinMotor" : 60,
+    "MaxMotor" : 900,
+    "ZeroAngle" : 60,
+    "Speed"     : 750,
+    "Invert"    : false,
+    "MotorType" : "OlhosPop"
+},
+{
+    "DOF" : 6,
+    "MinMotor" : 460,
+    "MaxMotor" : 529,
+    "ZeroAngle" : 501,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "RX-64/RX-28"
+},
+{
+    "DOF" : 7,
+    "MinMotor" : 430,
+    "MaxMotor" : 499,
+    "ZeroAngle" : 447,
+    "Speed"     : 300,
+    "Invert"    : false,
+    "MotorType" : "RX-64/RX-28"
+},
+{
+    "DOF" : 8,
+    "MinMotor" : 478,
+    "MaxMotor" : 589,
+    "ZeroAngle" : 505,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "RX-64/RX-28"
+},
+{
+    "DOF" : 9,
+    "MinMotor" : 236,
+    "MaxMotor" : 765,
+    "ZeroAngle" : 514,
+    "Speed"     : 200,
+    "Invert"    : false,
+    "MotorType" : "RX-64/RX-28"
+},
+{
+    "DOF" : 10,
+    "MinMotor" : 395,
+    "MaxMotor" : 563,
+    "ZeroAngle" : 477,
+    "Speed"     : 150,
+    "Invert"    : false,
+    "MotorType" : "RX-64/RX-28"
+}
+]

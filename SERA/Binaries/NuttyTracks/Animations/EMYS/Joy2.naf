@@ -1,0 +1,5292 @@
+
+{
+  "NuttyAnimation" : {
+    "Meta" : {
+      "BodySet" : "EmysBodySet",
+      "Type"    : "AngleDeg",
+      "FrameRate" : "50"
+    },
+    "Frames" : [
+      {
+        "Frame" : 0,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 1,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0.560005664825439",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.123199462890625",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.134407043457031",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-0.504000067710876",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-0.283742040395737",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0.112003326416016",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.181884437799454",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 2,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "2.08000230789185",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.457618713378906",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.49920654296875",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-1.87200117111206",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-1.06219375133514",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0.415999412536621",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.688211619853973",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 3,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "4.32000041007996",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.950401306152344",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-1.03679656982422",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-3.88800024986267",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-2.22619390487671",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0.863999366760254",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-1.45999109745026",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 4,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "7.04000186920166",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-1.54877471923828",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-1.68959808349609",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-6.33599996566772",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-3.66658186912537",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "1.40799903869629",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-2.43823409080505",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 5,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "10.0000019073486",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.19998931884766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.40000152587891",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-9",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-5.27419328689575",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "1.99999618530273",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-3.56395244598389",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 6,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "12.9599990844727",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.85118865966797",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.11041259765625",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-11.6640014648438",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-6.93987226486206",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "2.59199333190918",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.77815341949463",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 7,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "15.6799993515015",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.44959259033203",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.76321411132813",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-14.1119976043701",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-8.55445098876953",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.13599491119385",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-6.02184867858887",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 8,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "17.9200077056885",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.94239807128906",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.30080413818359",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-16.128002166748",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-10.0087738037109",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.58399391174316",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-7.23604917526245",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 9,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "19.4400024414063",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.27679443359375",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.66561126708984",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-17.4960041046143",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-11.1936817169189",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.88799476623535",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-8.36176872253418",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 10,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.40000915527344",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.80000305175781",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-12.0000028610229",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.99999475479126",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-9.34000968933105",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 11,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.33839416503906",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.73281097412109",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-12.5661849975586",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.79789972305298",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-10.1117897033691",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 12,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.17120361328125",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.55042266845703",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-13.1035280227661",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.23531532287598",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-10.6181182861328",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 13,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.92481231689453",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.28158569335938",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-13.612154006958",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "2.37778377532959",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-10.8000049591064",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 14,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.62560272216797",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.95520782470703",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-14.0921907424927",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "1.290846824646",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-10.6932935714722",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 15,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.29999542236328",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.59999084472656",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-14.5437641143799",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0.0400514602661133",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-10.3871726989746",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 16,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.97438812255859",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.24481201171875",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-14.9669933319092",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-3.01084041595459",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-9.90262222290039",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 17,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.67520141601563",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.91840362548828",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-15.3620071411133",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-6.18917274475098",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-9.26064300537109",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 18,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.42879486083984",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.64960479736328",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-15.7289371490479",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-9.29212760925293",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-8.48221588134766",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 19,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.26158905029297",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.46719360351563",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.0679054260254",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-12.1689529418945",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-7.58833837509155",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 20,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.19998931884766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.40000152587891",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.3790302276611",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-14.6689147949219",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-6.60000228881836",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 21,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.32319641113281",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.53439331054688",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.6624450683594",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-16.6412391662598",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.53819179534912",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 22,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.65760803222656",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.89920806884766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.9182720184326",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-17.9351844787598",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.42390727996826",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 23,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.15039825439453",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.43680572509766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.1466407775879",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-18.3999900817871",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-3.27813267707825",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 24,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.74880981445313",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.08960723876953",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.3476657867432",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-17.9870872497559",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-2.12186479568481",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 25,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "20",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.40000915527344",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.80000305175781",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.5214862823486",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-16.815788269043",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.976093471050262",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 26,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "19.92529296875",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-5.05120086669922",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-5.51039886474609",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-17.932767868042",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.6682262420654",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-14.9872150421143",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0.133073821663857",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 27,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "19.708459854126",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-5.64959716796875",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-6.16320037841797",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-17.7376098632813",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.7880020141602",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-12.6024799346924",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "1.15555584430695",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 28,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "19.3604259490967",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.14240264892578",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-6.70079040527344",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-17.4243793487549",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.8809337615967",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-9.7627067565918",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "2.10728931427002",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 29,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "18.8921270370483",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.47682189941406",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-7.06559753417969",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-17.0029125213623",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.9471702575684",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-6.56901359558105",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "2.96806001663208",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 30,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "18.3145008087158",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.59999084472656",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-7.19999694824219",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-16.4830570220947",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.9868068695068",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-3.12252616882324",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "3.71765160560608",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 31,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "17.6384916305542",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.53534698486328",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-7.12947845458984",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-15.8746337890625",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0.206799507141113",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "4.33586025238037",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 32,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "16.8750019073486",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.35380554199219",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-6.93140411376953",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-15.1875009536743",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "1.79320526123047",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "4.80245971679688",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 33,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "16.0349903106689",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-6.07389831542969",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-6.62608337402344",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-14.431489944458",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.35762643814087",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "5.0972466468811",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 34,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "15.1293716430664",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-5.71433258056641",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-6.23381805419922",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-13.6164360046387",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "4.8560996055603",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "5.19999885559082",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 35,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "14.1690988540649",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-5.29364776611328",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-5.77487945556641",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-12.7521877288818",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "6.24466228485107",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "5.10726881027222",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 36,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "13.1650857925415",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.83045196533203",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-5.26956176757813",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-11.8485794067383",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "7.47934627532959",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "4.84334707260132",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 37,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "12.1282768249512",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-4.34333038330078",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.73816680908203",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-10.9154539108276",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "8.51618790626526",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "4.42962980270386",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 38,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "11.0696086883545",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.85087585449219",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-4.20095825195313",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-9.96264839172363",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "9.31122189760208",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "3.88751840591431",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 39,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "10.0000019073486",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-3.37173461914063",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.67825317382813",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-9",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "9.82048311829567",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "3.2384078502655",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 40,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "8.93039155006409",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.92447662353516",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-3.19033813476563",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-8.03735542297363",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "10.0000019073486",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "2.5037043094635",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 41,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "7.87171697616577",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.52767181396484",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.75748443603516",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-7.084547996521",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "9.72454252839088",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "1.70480227470398",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 42,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "6.83491337299347",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-2.19998931884766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.40000152587891",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-6.15142011642456",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "8.96296775341034",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0.863100051879883",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 43,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "5.83090323209763",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-1.91160583496094",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-2.08538818359375",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-5.2478141784668",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "7.81250476837158",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 44,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "4.87062925100327",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-1.62407684326172",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-1.771728515625",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-4.38356399536133",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "6.37037444114685",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.896296799182892",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 45,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "3.96501624584198",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-1.343017578125",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-1.46510314941406",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-3.56851410865784",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "4.73380088806152",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-1.77037024497986",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 46,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "3.12500047683716",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-1.07402801513672",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-1.17166900634766",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-2.8125",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "3.00000047683716",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-2.60000085830688",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 47,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "2.3615198135376",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.822708129882813",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.897506713867188",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-2.12536525726318",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "1.26620578765869",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-3.36296319961548",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 48,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "1.68549466133118",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.594680786132813",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.64874267578125",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-1.51694571971893",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.851847648620605",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.03703594207764",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 49,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "1.10787606239319",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.395530700683594",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.431503295898438",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-0.997084259986877",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-4.16874885559082",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.59999990463257",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 50,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0.639575958251953",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.23089599609375",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.251884460449219",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-0.575619399547577",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-6.81480979919434",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.02963018417358",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 51,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0.29154634475708",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.106361389160156",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.11602783203125",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-0.26239088177681",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-8.56643486022949",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.30370616912842",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 52,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0.0747103691101074",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "-0.02752685546875",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "-0.0300445556640625",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "-0.0672387033700943",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-9.20000076293945",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.40000057220459",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 53,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-9.17001342773438",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.33119869232178",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 54,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-9.08278656005859",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-5.13760042190552",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 55,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-8.94240188598633",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.83840084075928",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 56,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-8.75294876098633",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4.45280027389526",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 57,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-8.51852035522461",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-4",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 58,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-8.24319839477539",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-3.49920153617859",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 59,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-7.93108177185059",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-2.96959948539734",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 60,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-7.58625221252441",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-2.43040013313293",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 61,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-7.21279335021973",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-1.9008002281189",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 62,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-18",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-6.81480979919434",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-1.39999997615814",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 63,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.9159030914307",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-6.39638900756836",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.947200417518616",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 64,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.6728382110596",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-5.96159839630127",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.561599671840668",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 65,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-17.2846069335938",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-5.51454734802246",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.262399852275848",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 66,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.7650585174561",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-5.0593204498291",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "-0.0688002780079842",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 67,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-16.128002166748",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-4.59999752044678",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 68,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-15.3872623443604",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-4.14068508148193",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 69,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-14.5566749572754",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-3.68544864654541",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 70,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-13.6500463485718",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-3.23840045928955",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 71,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-12.6812143325806",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-2.80361270904541",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 72,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-11.6640024185181",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-2.3851842880249",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 73,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-10.6122245788574",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-1.98720264434814",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 74,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-9.53971385955811",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-1.61374664306641",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 75,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-8.46028614044189",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-1.26891803741455",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 76,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-7.38777780532837",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.956799507141113",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 77,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-6.33599996566772",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.681482315063477",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 78,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-5.31878566741943",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.447049140930176",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 79,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-4.34995222091675",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.257599830627441",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 80,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "9.53674430093088E-07",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-3.44332885742188",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.11721134185791",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 81,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-2.61273574829102",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "-0.0299854278564453",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 82,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-1.87199950218201",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 83,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-1.23494386672974",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 84,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-0.715392529964447",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 85,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-0.327167361974716",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 86,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "-0.0840948075056076",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      },
+      {
+        "Frame" : 87,
+        "Channels" : [
+          {
+            "Channel" : "EmysBodySet.RightEyebrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyelid",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyeBrow",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LeftEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.RightEyepop",
+            "Value"   : "0",
+            "Speed"   : 1000
+          },
+          {
+            "Channel" : "EmysBodySet.UpperPlate",
+            "Value"   : "1.90734886018618E-06",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.LowerPlate",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadTilt",
+            "Value"   : "0",
+            "Speed"   : 300
+          },
+          {
+            "Channel" : "EmysBodySet.HeadPan",
+            "Value"   : "0",
+            "Speed"   : 100
+          },
+          {
+            "Channel" : "EmysBodySet.NeckTilt",
+            "Value"   : "0",
+            "Speed"   : 100
+          }
+        ]
+      }
+    ]
+  }
+}
