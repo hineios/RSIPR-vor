@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("/public/images/background.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.table>tbody>tr>td {
+    padding: 0px;
+}
+
+h1 {
+    color: #D84315;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+table {
+    border: 3px solid black;
+}
+th, td {
+    border: 3px solid grey;
+}
+
+p {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+td.my-td{
+    width: 10px;
+}
+
+.cross-table {
+    width: auto;
+    background-color: white;
+}
+
+.black-box {
+    background-color: black;
+}
+
+.box {
+    border: 2px solid none;
+
+}
+
+.tip-selected {
+    color: black;
+    background: #BBDEFB;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.login-card {
+    background: #BDBDBD;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+    height: 450px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+    margin-left: -100px;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.my-button {
+    background-color: #D84315;
+    border-color: #D84315;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top:10px;
+}
+
+.my-button:hover, .my-button:active {
+    background-color: #424242;
+    border-color: #D84315 !important;
+}
+
+.my-button:active {
+    background-color: #757575 !important;
+    border-color: #D84315 !important;
+}
+
+button:visited {
+    background-color: #424242 !important;
+    border-color: #D84315 !important;
+}
+
+input[type="text"] {
+    text-transform: uppercase !important;
+}
+
+.swal-left{
+    position: absolute !important;
+    left: 500px !important;
+}

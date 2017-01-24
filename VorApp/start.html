@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>VOR - Palavras Cruzadas</title>
+
+    <!-- Bootstrap -->
+    <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="public/stylesheets/my-style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="public/stylesheets/sweetalert2.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+        <h1></h1>
+        <br><br><br>
+        <form role="form">
+            <div class="row">
+                <table class="col-md-8 table cross-table" id="cross-words-table">
+                    <tbody>
+                    </tbody>
+                </table>
+                <div class="col-lg-2 tips-card-h">
+                    <div class="card"><h4>HORIZONTAIS</h4><hr style="margin-top:-5px">
+                    <strong>1H. </strong><span id="id1H">(...) Espanca, poetisa portuguesa (Vila Viçosa, 1894 - Matosinhos, 1930)</span>
+                    <strong>2H. </strong><span id="id2H"> Los Angeles (abrev.)</span>
+                    <strong>3H. </strong><span id="id3H"> Sinal gráfico que serve para nasalar a vogal que se sobrepõe</span>
+                    <strong>4H. </strong><span id="id4H"> Quatro em numeração romana</span>
+                    <strong>5H. </strong><span id="id5H"> Vagas</span>
+                    <strong>6H. </strong><span id="id6H"> João Maria Espanca (parentesco).</span>
+                    <strong>7H. </strong><span id="id7H"> Redução das formas linguísticas "a" e "o" numa só.</span>
+                    <strong>8H. </strong><span id="id8H"> "Sinto hoje a alma cheia de (...)!", início do poema Neurastenia, em 'Livro de Mágoas'.</span>
+                    <strong>9H. </strong><span id="id9H"> Avenida (abrev.).</span>
+                    <strong>10H. </strong><span id="id10H"> Preposição que designa posse.</span>
+                    <strong>11H. </strong><span id="id11H"> Toneladas Registadas (sigla)</span>
+                    <strong>12H. </strong><span id="id12H"> Faz doação de.</span>
+                    <strong>13H. </strong><span id="id13H"> Irmão de Florbela Espanca.</span>
+                    <strong>14H. </strong><span id="id14H"> Observei.</span>
+                    <strong>15H. </strong><span id="id15H"> Poema que diz: "O meu País de sonho e de ansiedade,/Não sei se esta quimera que me assombra,/É feita de mentira ou de verdade!", em 'Charneca em Flor'.</span>
+                    <strong>16H. </strong><span id="id16H"> Reza.</span>
+                    <strong>17H. </strong><span id="id17H"> Ratar.</span></div>
+                    <br>
+                </div>
+                <div class="col-lg-2 tips-card-v">
+                    <div class="card"><h4>VERTICAIS</h4><hr style="margin-top:-5px">
+                    <span id="id18V"><strong>18V. </strong> 'Charneca em (...)', obra póstuma de Florbela Espanca (1931)</span>
+                    <span id="id19V"><strong>19V. </strong> Rede local de computadores.</span>
+                    <span id="id20V"><strong>20V. </strong> Sigla de Região de Turismo do Algarve</span>
+                    <span id="id21V"><strong>21V. </strong> Anotação musical para indicar repetição.</span>
+                    <span id="id22V"><strong>22V. </strong> Artigo antigo.</span>
+                    <span id="id23V"><strong>23V. </strong> Camareira.</span>
+                    <span id="id24V"><strong>24V. </strong> "Deus! Como é triste a hora quando morre.../O instante que foge, voa e passa.../Fiozinho d'água triste... a (...) corre...", do poema Hora que Passa, em 'Livro de Sóror Saudade'.</span>
+                    <span id="id25V"><strong>25V. </strong> A Minha (...), poema que diz: "A minha Dor é um convento ideal/Cheio de claustros, sombras, arcarias,/Aonde a pedra em convulsões/Tem linhas dum requinte escultural.", em 'Livro de Mágoas'.</span>
+                    <span id="id26V"><strong>26V. </strong> Ser (...), soneto imortalizado pelo grupo musical português Trovante.</span>
+                    <span id="id27V"><strong>27V. </strong> Autoridade Tributária e Aduaneira.</span>
+                    <span id="id28V"><strong>28V. </strong> Televisão.</span>
+                    <span id="id29V"><strong>29V. </strong> Idem (abrev.).</span>
+                    <span id="id30V"><strong>30V. </strong> Limpar com escova de sedas (ourivesaria).</span>
+                    <span id="id31V"><strong>31V. </strong> Zircónio (s.q.)</span>
+                    <span id="id32V"><strong>32V. </strong> Ventarola.</span>
+                    <span id="id33V"><strong>33V. </strong> À volta da qual se reúnem os comensais.</span>
+                    <span id="id34V"><strong>34V. </strong> Capital da Noruega.</span>
+                    <span id="id35V"><strong>35V. </strong> Espaço de 24 horas.</span>
+                    <span id="id36V"><strong>36V. </strong> Preposição designativa de substituição.</span>
+                    <span id="id37V"><strong>37V. </strong> Sufixo Internet (Lituânia).</span>
+                    <span id="id38V"><strong>38V. </strong> Regressar.</span>
+                    <span id="id39V"><strong>39V. </strong> Germânio (s.q.).</span></div>
+                </div>
+            </div>
+        </form>
+        <!--<div class="btn-group btn-group-lg" role="group" aria-label="">
+            <button type="button submit" class="btn btn-primary">Submeter resposta</button>
+        </div>-->
+        <br><br>
+    </div>  
+    <script src="/../config.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="public/javascripts/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="public/javascripts/bootstrap.min.js"></script>
+    <script src="public/javascripts/webServices.js"></script>
+      <script src="public/javascripts/sweetalert2.min.js"></script>
+    </body>
+</html>
+
+<script>
+$(function(){
+    
+    $(document).unbind('keydown').bind('keydown', function (event) {
+    var doPrevent = false;
+    if (event.keyCode === 8) {
+        var d = event.srcElement || event.target;
+        if ((d.tagName.toUpperCase() === 'INPUT' && 
+             (
+                 d.type.toUpperCase() === 'TEXT' ||
+                 d.type.toUpperCase() === 'PASSWORD' || 
+                 d.type.toUpperCase() === 'FILE' || 
+                 d.type.toUpperCase() === 'SEARCH' || 
+                 d.type.toUpperCase() === 'EMAIL' || 
+                 d.type.toUpperCase() === 'NUMBER' || 
+                 d.type.toUpperCase() === 'DATE' )
+             ) || 
+             d.tagName.toUpperCase() === 'TEXTAREA') {
+            doPrevent = d.readOnly || d.disabled;
+        }
+        else {
+            doPrevent = true;
+        }
+    }
+
+    if (doPrevent) {
+        event.preventDefault();
+    }
+    });
+    
+    $(document).on("contextmenu",function(e){
+        return false;
+    });
+    
+    var table = "";
+    var readonly = "readonly",
+        wordsToFind = [];
+    var selectedID = "";
+    
+    for(i=0; i!=WORDS.length; i++){
+        wordsToFind.push(WORDS[i].word)
+    }
+    
+    for(i = 0; i < NR_ROWS; i++){
+        table += "<tr>";
+        for(j = 0; j < NR_COLS; j++){
+        table+="<td style='width:10px'>"
+        table+="<div id='box" + i+j + "' class='box' style='height:80px'><br><input type='text' class='form-group' id='" + i+j + "' maxlength='1'></div>"
+        table+="</td>"        
+        }
+        table += "</tr>";
+    }
+
+    $("#cross-words-table").append(table);
+    
+    $(".form-group").change(function(){
+        console.log("change")
+        
+    })
+    
+    var id ="";
+    var coordinates = READONLY_COORDINATES;
+    for(i=0; i< coordinates.length ; i++){
+        id = '#' + coordinates[i];
+        box_id = '#box' + coordinates[i]
+        $(id).attr("readonly",true);
+        $(id).addClass("black-box");
+        $(box_id).addClass("black-box");
+    }
+    
+    for (var key in TIP_NRS){
+        $("#box" + key).prepend("<span style='margin-left:2px; color:black'>" + TIP_NRS[key] + "</span>")
+    }
+
+    
+    var pos_arr =[];
+
+    var validInput = function(active_positions){
+        var word="";
+        for(var i=0; i!= active_positions.length; i++){
+            word += $("#"+active_positions[i]).val();
+        }
+        if(word.toUpperCase() == findInWords(selectedID)){
+            color(active_positions);
+            foundWord(word, selectedID);
+            return true;
+        } else {
+            removeColor(active_positions);
+            wrongWord(word, selectedID);
+            return false;
+        }
+    }
+    
+    
+    
+    var wrongWord = function(word, id){
+        var params = {id: id, value: word}
+        VorGame.WordDeclined(params, function(){})
+    }
+    
+    var color = function(array){
+        for(var i=0; i!= array.length; i++){
+            $("#"+array[i]).removeClass("incorrect");
+            $("#"+array[i]).addClass("correct");
+        }
+    }
+    
+    var removeColor = function(array){
+        for(var i=0; i!= array.length; i++){
+            $("#"+array[i]).removeClass("correct");
+            $("#"+array[i]).addClass("incorrect");
+        }
+    }
+    
+    var uncolor = function(pos){
+        pos.removeClass("correct");
+        pos.removeClass("incorrect");       
+    }
+    
+    var completeBoardWord = function(){    
+        $.getJSON('/words/complete', function(data) {
+            if(data.length != 0){
+                var id=data[0];
+                var word = "",
+                    pos = "";
+                for(var i=0; i!=WORDS.length && pos == ""; i++){
+                    if(WORDS[i]["id"]==id){
+                        word = WORDS[i]["word"];
+                        pos = WORDS[i]["pos"];
+                    }
+                }
+
+                if(pos != ""){
+                    for(var i =0; i!=pos.length; i++) {
+                        $("#"+pos[i]).val(word[i]);
+                    }
+                    color(pos);
+                    
+                }
+                scanBoard();
+            }          
+        })
+    }
+    
+    
+    
+    function foundWord(word, id){
+        var index = wordsToFind.indexOf(word.toUpperCase())
+        console.log("hey " + index)
+        if( index != -1){
+            wordsToFind.splice(index,1);
+            VorGame.FoundWord({id: id, value: word}, function(){})
+        }
+        console.log("WORDS TO FINISH: "+ wordsToFind)
+        if (wordsToFind.length == 0){
+            swal({
+                title: "Parabéns!",
+                text: "Obrigado pela vossa participação",
+                imageUrl: "/public/images/win.png",
+                imageSize: "200x200",
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                customClass: 'swal-left',
+                closeOnConfirm: false,
+                allowEscapeKey: false
+            })
+        }
+    }
+    
+    setInterval(function(){
+        $.getJSON('/start/canProceed', function(data){
+            if(data == "false" || !data){
+               swal({
+                title: "Oh...",
+                text: "O vosso tempo acabou! Obrigado pela participação.",
+                imageUrl: "/public/images/sad.png",
+                imageSize: "200x200",
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                customClass: 'swal-left',
+                closeOnConfirm: false,
+                allowEscapeKey: false
+            }) 
+            }
+        })
+    },3000)
+    
+    setInterval(function(){
+        completeBoardWord();
+    },3000);
+    
+    $('span[id^="id"]').click(function(){
+        var id = $(this).attr("id").replace("id","");
+        selectedID = id;
+        var word = findInWords(id);
+        selectTip($(this),id, word)
+        focusInput(id);
+    })
+    
+    var selectTip = function(span, id, word){
+        VorGame.SelectedWord({"id": id, "value": word}, function(){})
+        deselectTip();
+        span.addClass("tip-selected");
+    }
+    
+    var deselectTip = function(){
+        $("span").each(function(){
+            $(this).removeClass("tip-selected");
+        })
+    }
+    
+    function removeAllTipSelection(){
+        $("span").each(function(){
+            $(this).removeClass("tip-selected");
+        })
+    }
+    
+    var findInWords = function(id){
+        var word = "";
+        for(var i = 0; i!= WORDS.length && word == ""; i++){
+            if(WORDS[i].id == id)
+                word = WORDS[i].word;
+        }
+        return word;
+    }
+    
+    var focusInput = function(id){
+        var pos = "";
+        var pos_array;
+        for(var i = 0; i!= WORDS.length && pos == "";i++){
+            if(WORDS[i].id == id){
+                pos_array = WORDS[i].pos;
+                pos = WORDS[i].pos[0];
+            }
+        }
+        $("#"+pos).focus();
+        selectBoxes(pos_array);
+    }
+    
+    var active_pos=[];
+    var selectBoxes = function(array_pos){
+        deselectBoxes(active_pos);
+        for(var i=0; i!= array_pos.length; i++){
+            $("#box"+array_pos[i]).addClass("word-on-play");
+            $("#"+array_pos[i]).addClass("word-on-play")
+        }
+        active_pos = array_pos;
+    }
+    
+    var deselectBoxes = function(array_pos){ 
+        for(var i=0; i!= active_pos.length && active_pos.length != 0; i++){
+            $("#box"+active_pos[i]).removeClass("word-on-play");
+            $("#"+active_pos[i]).removeClass("word-on-play")
+        }
+        active_pos = [];
+    }
+    
+    $("input").click(function(){
+        if($("span.tip-selected")[0] == undefined){
+            $(this).blur();
+            VorGame.TipNotSelected("",function(){})
+        }
+        if(!posIsActive($(this).attr("id"))){
+            $(this).blur();
+            $("#"+active_pos[0]).focus();
+        }
+    })
+    
+    $("input").keyup(function(e){
+        if(e.keyCode == 37|| e.keyCode == 38|| e.keyCode == 39|| e.keyCode == 40)
+            return;
+        var pos;
+        var id = $(this).attr("id");
+
+        if(e.keyCode == 8){
+            if(active_pos[0] != id){
+                for (var i = 0; i!= active_pos.length && pos != ""; i++){
+                    if(active_pos[i] == id)
+                        pos = i - 1;
+                }   
+            }
+            $("#"+active_pos[pos]).val("");
+            $("#"+active_pos[pos]).focus();
+        } else {
+            var key = String.fromCharCode(e.keyCode).toUpperCase();
+            $(this).val(key);
+            for (var i = 0; i!= active_pos.length && pos != ""; i++){
+                if(active_pos[i] == id)
+                    pos = i + 1;
+            }
+            if(pos == active_pos.length){       
+                if(validInput(active_pos)){
+                    $(this).blur();
+                    deselectBoxes(active_pos);
+                    deselectTip();
+                }
+            }
+            else
+                $("#"+active_pos[pos]).focus();
+            
+            scanBoard();
+        }
+        
+    })
+    
+    var scanBoard = function(){
+        var word = "";
+        var pos;
+        for(var i = 0; i!= WORDS.length; i++){
+            for(var j = 0; j!= WORDS[i]["pos"].length; j++){
+                pos = WORDS[i]["pos"][j];
+                word += $("#"+pos).val();
+            }
+            if(word == WORDS[i].word){
+                if(wordsToFind.indexOf(word) != -1){
+                    foundWord(word,WORDS[i].id)
+                    color(WORDS[i].pos)
+                }
+            }
+            word = "";
+        }
+    }
+    
+    var posIsActive = function(id){
+        var bool = false;
+        for(var i = 0; i!= active_pos.length && !bool; i++){
+            if(active_pos[i] == id)
+                bool = true;
+        }
+        return bool;
+    }
+    
+    /*$("input").click(function(){
+        var pos = $(this).attr("id");
+        for(var i=0; i!=WORDS.length;i++){
+            if(WORDS[i].pos.indexOf(pos) == 0){
+                $("span").each(function(){
+                    $(this).removeClass("tip-selected");
+                })
+                $("#id"+WORDS[i].id).addClass("tip-selected");
+            }
+        }
+    })*/
+})
+</script>
